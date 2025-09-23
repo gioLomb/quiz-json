@@ -1,0 +1,12 @@
+[
+  {
+    "domanda": "Qual è la capitale d’Italia?",
+    "opzioni": ["Milano", "Roma", "Napoli", "Torino"],
+    "corretta": "Roma"
+  },
+  {
+    "domanda": "Chi ha inventato il telefono?",
+    "opzioni": ["Einstein", "Bell", "Tesla", "Newton"],
+    "corretta": "Bell"
+  }
+]
