@@ -132,25 +132,25 @@
     {
         "domanda": "Quante informazioni diverse si possono rappresentare con una stringa di N bit?",
         "opzioni": [
-            "N^2",
-            "N / 2",
-            "N * 2",
-            "2^N"
+            "N elevato a 2",
+            "N diviso per 2",
+            "N moltiplicato per 2",
+            "2 elevato alla potenza N"
         ],
-        "corretta": "2^N"
+        "corretta": "2 elevato alla potenza N"
     },
     {
         "domanda": "A quanto equivale 1 Megabyte (MB)?",
         "opzioni": [
             "1024 GB",
             "1024 byte",
-            "2^10 byte",
+            "2 elevato a 10 byte",
             "1024 KB"
         ],
         "corretta": "1024 KB"
     },
     {
-        "domanda": "Se si devono rappresentare K=5 informazioni diverse, quanti bit sono necessari (usando l'arrotondamento per eccesso della formula $\lceil log_2 K \rceil$)?",
+        "domanda": "Se si devono rappresentare K=5 informazioni diverse, quanti bit sono necessari?",
         "opzioni": [
             "2 bit",
             "3 bit",
@@ -230,7 +230,7 @@
         "corretta": "CPU e memoria principale"
     },
     {
-        "domanda": "Cosa rappresenta $H$ nella formula del tempo di accesso medio alla cache $T_A = T_C + (1-H) \times T_M$?",
+        "domanda": "Cosa rappresenta H nella formula del tempo di accesso medio alla cache T medio = T cache + (1 - H) moltiplicato per T memoria?",
         "opzioni": [
             "Tempo di accesso alla cache",
             "Percentuale di fallimenti (miss rate)",
@@ -410,7 +410,7 @@
         "corretta": "Seek time"
     },
     {
-        "domanda": "Esercizio: Calcolare la latenza di rotazione di un disco che ruota con velocità di 20.000 RPM.",
+        "domanda": "Esercizio: Calcolare la latenza di rotazione di un disco che ruota con velocità di 20.000 Rotazioni Per Minuto (RPM).",
         "opzioni": [
             "3 secondi",
             "1.5 secondi",
@@ -627,7 +627,7 @@
             "Solo la memoria centrale",
             "Solo le periferiche I/O"
         ],
-        "corretta": "Quelli che hanno il controllo del bus e possono iniziare un trasferimento"
+        "corretta": "Quelli che hanno il controllo del bus e quindi possono iniziare un trasferimento"
     },
     {
         "domanda": "Nell'arbitraggio centralizzato con schema daisy chain, come viene determinata la priorità?",
@@ -694,23 +694,23 @@
         "opzioni": [
             "NAND, XOR, XNOR",
             "Somma, Sottrazione, Moltiplicazione",
-            "Congiunzione ($\bullet$), Disgiunzione ($+$), Negazione ($-$, $\neg$)",
+            "Congiunzione (AND), Disgiunzione (OR), Negazione (NOT)",
             "FIFO, LRU, LFU"
         ],
-        "corretta": "Congiunzione ($\bullet$), Disgiunzione ($+$), Negazione ($-$, $\neg$)"
+        "corretta": "Congiunzione (AND), Disgiunzione (OR), Negazione (NOT)"
     },
     {
-        "domanda": "Una funzione logica di $n$ variabili ha quante possibili combinazioni di valori di input?",
+        "domanda": "Una funzione logica di N variabili ha quante possibili combinazioni di valori di input?",
         "opzioni": [
-            "$n^2$",
-            "$2n$",
-            "$2^n$",
-            "$n+2$"
+            "N elevato a 2",
+            "2 moltiplicato per N",
+            "2 elevato alla potenza N",
+            "N più 2"
         ],
-        "corretta": "$2^n$"
+        "corretta": "2 elevato alla potenza N"
     },
     {
-        "domanda": "Nella Tabella di Verità, quando è vera una proposizione ottenuta per Congiunzione (AND, $A \bullet B$)?",
+        "domanda": "Nella Tabella di Verità, quando è vera una proposizione ottenuta per Congiunzione (AND, A AND B)?",
         "opzioni": [
             "Quando almeno una proposizione componente è vera",
             "Se e solo se le proposizioni componenti sono tutte vere",
@@ -780,7 +780,7 @@
         "corretta": "Latch S-R (flip-flop)"
     },
     {
-        "domanda": "Esercizio Logico: Valutare il valore di verità dell'espressione logica $F=A \cdot (\overline{B} \cdot C + B \cdot \overline{C})$ supponendo $A=0, B=1, C=0$.",
+        "domanda": "Esercizio Logico: Valutare il valore di verità dell'espressione logica F = A AND (NOT B AND C OR B AND NOT C) supponendo A=0, B=1, C=0.",
         "opzioni": [
             "F=0",
             "F=1",
@@ -792,12 +792,12 @@
     {
         "domanda": "Quale delle seguenti è una delle Leggi di De Morgan?",
         "opzioni": [
-            "$A \bullet 1 = A$ (El. Neutro)",
-            "$A + B = B + A$ (Commutatività)",
-            "$\overline{A} + \overline{B} = \overline{(A \bullet B)}$",
-            "$A \cdot A = A$ (Idempotenza)"
+            "A AND 1 = A (Elemento Neutro)",
+            "A OR B = B OR A (Commutatività)",
+            "NOT A OR NOT B = NOT (A AND B)",
+            "A AND A = A (Idempotenza)"
         ],
-        "corretta": "$\overline{A} + \overline{B} = \overline{(A \bullet B)}$"
+        "corretta": "NOT A OR NOT B = NOT (A AND B)"
     },
     {
         "domanda": "La fase di Fetch (estrazione di una istruzione dalla memoria principale) è la prima del ciclo di istruzione del processore. Quali sono le fasi successive?",
@@ -860,7 +860,7 @@
         "corretta": "La frequenza di clock (o clock rate)"
     },
     {
-        "domanda": "Cosa rappresenta il periodo di clock ($\tau$)?",
+        "domanda": "Cosa rappresenta il periodo di clock (tau)?",
         "opzioni": [
             "Il numero di impulsi nell'unità di tempo",
             "L'inverso della frequenza di clock",
@@ -893,11 +893,11 @@
         "domanda": "Qual è il tempo di accesso tipico della memoria centrale (RAM)?",
         "opzioni": [
             "Ordine di pochi nsec",
-            "Ordine di $\mu$sec (microsecondi)",
+            "Ordine di microsecondi (µsec)",
             "Ordine di msec (millisecondi)",
             "Ordine di secondi"
         ],
-        "corretta": "Ordine di $\mu$sec (microsecondi)"
+        "corretta": "Ordine di microsecondi (µsec)"
     },
     {
         "domanda": "Quale tecnologia di RAM è usata prevalentemente nelle memorie cache?",
@@ -920,14 +920,14 @@
         "corretta": "Le celle di memoria sono più semplici e più piccole"
     },
     {
-        "domanda": "Se l'indirizzo della memoria centrale è un numero di $k$ bit, quante diverse locazioni si possono indirizzare?",
+        "domanda": "Se l'indirizzo della memoria centrale è un numero di k bit, quante diverse locazioni si possono indirizzare?",
         "opzioni": [
-            "$k^2$",
-            "$2^k$",
-            "$2^k - 1$",
-            "$k \times 2$"
+            "k elevato a 2",
+            "2 elevato a k",
+            "2 elevato a k meno 1",
+            "k moltiplicato per 2"
         ],
-        "corretta": "$2^k$"
+        "corretta": "2 elevato a k"
     },
     {
         "domanda": "Se una memoria ha N=1024 locazioni, quanti bit sono necessari per indirizzarle?",
@@ -970,17 +970,17 @@
         "corretta": "Cifra più significativa"
     },
     {
-        "domanda": "Qual è la base $b$ e l'insieme dei simboli utilizzati nel sistema di numerazione esadecimale?",
+        "domanda": "Qual è la base b e l'insieme dei simboli utilizzati nel sistema di numerazione esadecimale?",
         "opzioni": [
-            "$b=8$, simboli 0-7",
-            "$b=10$, simboli 0-9",
-            "$b=16$, simboli 0-9, A-F",
-            "$b=2$, simboli 0 e 1"
+            "Base 8, simboli 0-7",
+            "Base 10, simboli 0-9",
+            "Base 16, simboli 0-9, A-F",
+            "Base 2, simboli 0 e 1"
         ],
-        "corretta": "$b=16$, simboli 0-9, A-F"
+        "corretta": "Base 16, simboli 0-9, A-F"
     },
     {
-        "domanda": "Per rappresentare un numero $x > 0$ in binario, sono necessarie $\lfloor \log_2(x) \rfloor+1$ cifre binarie. Questo concetto è legato a quale caratteristica dei sistemi posizionali?",
+        "domanda": "Per rappresentare un numero x > 0 in binario, sono necessarie Logaritmo in base 2 di x arrotondato per difetto più 1 cifre binarie. Questo concetto è legato a quale caratteristica dei sistemi posizionali?",
         "opzioni": [
             "Non Operatività",
             "Non Posizionalità",
@@ -1000,7 +1000,7 @@
         "corretta": "Numeri non interi"
     },
     {
-        "domanda": "Esercizio: Convertire la stringa binaria (10010)$_2$ nel sistema decimale.",
+        "domanda": "Esercizio: Convertire la stringa binaria (10010) in base 2 nel sistema decimale.",
         "opzioni": [
             "18",
             "20",
@@ -1010,7 +1010,7 @@
         "corretta": "18"
     },
     {
-        "domanda": "Esercizio: Convertire la stringa ottale (417)$_8$ nel sistema decimale.",
+        "domanda": "Esercizio: Convertire la stringa ottale (417) in base 8 nel sistema decimale.",
         "opzioni": [
             "317",
             "271",
@@ -1020,7 +1020,7 @@
         "corretta": "271"
     },
     {
-        "domanda": "Esercizio: Convertire la stringa esadecimale (FA3)$_{16}$ nel sistema decimale.",
+        "domanda": "Esercizio: Convertire la stringa esadecimale (FA3) in base 16 nel sistema decimale.",
         "opzioni": [
             "3907",
             "4003",
@@ -1030,52 +1030,52 @@
         "corretta": "4003"
     },
     {
-        "domanda": "Esercizio: Convertire il numero decimale (124)$_{10}$ in binario.",
+        "domanda": "Esercizio: Convertire il numero decimale (124) in base 10 in binario.",
         "opzioni": [
-            "(1111100)$_2$",
-            "(1001100)$_2$",
-            "(1111101)$_2$",
-            "(1111000)$_2$"
+            "(1111100) in base 2",
+            "(1001100) in base 2",
+            "(1111101) in base 2",
+            "(1111000) in base 2"
         ],
-        "corretta": "(1111100)$_2$"
+        "corretta": "(1111100) in base 2"
     },
     {
-        "domanda": "Esercizio: Convertire la parte frazionaria del numero decimale (0.625)$_{10}$ in binario.",
+        "domanda": "Esercizio: Convertire la parte frazionaria del numero decimale (0.625) in base 10 in binario.",
         "opzioni": [
-            "(0.101)$_2$",
-            "(0.011)$_2$",
-            "(0.110)$_2$",
-            "(0.111)$_2$"
+            "(0.101) in base 2",
+            "(0.011) in base 2",
+            "(0.110) in base 2",
+            "(0.111) in base 2"
         ],
-        "corretta": "(0.101)$_2$"
+        "corretta": "(0.101) in base 2"
     },
     {
-        "domanda": "Esercizio: Convertire il numero binario (111101.011001)$_2$ in base 16.",
+        "domanda": "Esercizio: Convertire il numero binario (111101.011001) in base 2 in base 16.",
         "opzioni": [
-            "(3D.69)$_{16}$",
-            "(3D.64)$_{16}$",
-            "(3F.69)$_{16}$",
-            "(3F.64)$_{16}$"
+            "(3D.69) in base 16",
+            "(3D.64) in base 16",
+            "(3F.69) in base 16",
+            "(3F.64) in base 16"
         ],
-        "corretta": "(3D.64)$_{16}$"
+        "corretta": "(3D.64) in base 16"
     },
     {
-        "domanda": "Esercizio: Convertire (AB81)$_{16}$ in base 2.",
+        "domanda": "Esercizio: Convertire (AB81) in base 16 in base 2.",
         "opzioni": [
-            "(1010101110000001)$_2$",
-            "(1010101110000000)$_2$",
-            "(1011101010000001)$_2$",
-            "(1010101110000100)$_2$"
+            "(1010101110000001) in base 2",
+            "(1010101110000000) in base 2",
+            "(1011101010000001) in base 2",
+            "(1010101110000100) in base 2"
         ],
-        "corretta": "(1010101110000001)$_2$"
+        "corretta": "(1010101110000001) in base 2"
     },
     {
-        "domanda": "Esercizio: Eseguire la somma binaria $1101 + 0011$.",
+        "domanda": "Esercizio: Eseguire la somma binaria 1101 + 0011 (risultato a 4 bit con riporto).",
         "opzioni": [
             "10000",
             "1111",
             "10001",
-            "10010"
+            "10000 (16 decimale)"
         ],
         "corretta": "10000"
     },
@@ -1090,17 +1090,17 @@
         "corretta": "Underflow (risultato troppo piccolo)"
     },
     {
-        "domanda": "Qual è l'intervallo di rappresentabilità dei numeri naturali (interi senza segno) in aritmetica binaria finita con $n$ bit?",
+        "domanda": "Qual è l'intervallo di rappresentabilità dei numeri naturali (interi senza segno) in aritmetica binaria finita con n bit?",
         "opzioni": [
-            "$[0, 2^n]$",
-            "$[0, 2^{n-1}]$",
-            "$[0, 2^n-1]$",
-            "$[-2^{n-1}, 2^{n-1}-1]$"
+            "[0, 2 elevato a N]",
+            "[0, 2 elevato a N-1]",
+            "[0, 2 elevato a N meno 1]",
+            "[meno 2 elevato a N-1, 2 elevato a N-1 meno 1]"
         ],
-        "corretta": "$[0, 2^n-1]$"
+        "corretta": "[0, 2 elevato a N meno 1]"
     },
     {
-        "domanda": "Nella rappresentazione in Modulo e Segno (MS) a $n$ bit, cosa indica il bit più significativo?",
+        "domanda": "Nella rappresentazione in Modulo e Segno (MS) a n bit, cosa indica il bit più significativo?",
         "opzioni": [
             "Il valore assoluto",
             "L'esponente",
@@ -1110,14 +1110,14 @@
         "corretta": "Il segno (0 per +, 1 per -)"
     },
     {
-        "domanda": "Qual è l'intervallo di rappresentabilità in Modulo e Segno (MS) a $n$ bit?",
+        "domanda": "Qual è l'intervallo di rappresentabilità in Modulo e Segno (MS) a n bit?",
         "opzioni": [
-            "$[-(2^{n-1} – 1), 2^{n-1} – 1]$",
-            "$[-(2^{n-1}), 2^{n-1} – 1]$",
-            "$[0, 2^n – 1]$",
-            "$[-2^n, 2^n]$"
+            "[meno (2 elevato a N-1 meno 1), 2 elevato a N-1 meno 1]",
+            "[meno (2 elevato a N-1), 2 elevato a N-1 meno 1]",
+            "[0, 2 elevato a N meno 1]",
+            "[meno 2 elevato a N, 2 elevato a N]"
         ],
-        "corretta": "$[-(2^{n-1} – 1), 2^{n-1} – 1]$"
+        "corretta": "[meno (2 elevato a N-1 meno 1), 2 elevato a N-1 meno 1]"
     },
     {
         "domanda": "Qual è uno svantaggio cruciale della rappresentazione in Modulo e Segno?",
@@ -1142,12 +1142,12 @@
     {
         "domanda": "Nella rappresentazione in Complemento a 1 (C1), i valori negativi sono espressi tramite la differenza del valore positivo rispetto a quale stringa?",
         "opzioni": [
-            "La stringa $10\dots0$ (n+1 bit)",
-            "La stringa $11\dots1$ (n bit)",
-            "La stringa $00\dots0$",
+            "La stringa 10...0 (N+1 bit)",
+            "La stringa 11...1 (N bit)",
+            "La stringa 00...0",
             "Invertendo solo il bit di segno"
         ],
-        "corretta": "La stringa $11\dots1$ (n bit)"
+        "corretta": "La stringa 11...1 (N bit)"
     },
     {
         "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 1 (4 bit) del numero -3?",
@@ -1160,7 +1160,7 @@
         "corretta": "1100"
     },
     {
-        "domanda": "Esercizio: Eseguire l'operazione $4 - 2$ usando C1 a 4 bit. (+4 è 0100, -2 è 1101).",
+        "domanda": "Esercizio: Eseguire l'operazione 4 - 2 usando C1 a 4 bit. (+4 è 0100, -2 è 1101).",
         "opzioni": [
             "10000 (Riporto sommato)",
             "0010 (Riporto sommato al risultato: 0001 + 1)",
@@ -1180,14 +1180,14 @@
         "corretta": "Si somma 1 al C1"
     },
     {
-        "domanda": "Qual è l'intervallo di rappresentabilità in Complemento a 2 a $n$ bit?",
+        "domanda": "Qual è l'intervallo di rappresentabilità in Complemento a 2 a n bit?",
         "opzioni": [
-            "$[-(2^{n-1} – 1), 2^{n-1} – 1]$",
-            "$[-(2^{n-1}), 2^{n-1} – 1]$",
-            "$[0, 2^n – 1]$",
-            "$[-(2^{n-1}), 2^{n-1}]$"
+            "[meno (2 elevato a N-1 meno 1), 2 elevato a N-1 meno 1]",
+            "[meno (2 elevato a N-1), 2 elevato a N-1 meno 1]",
+            "[0, 2 elevato a N meno 1]",
+            "[meno (2 elevato a N), 2 elevato a N]"
         ],
-        "corretta": "$[-(2^{n-1}), 2^{n-1} – 1]$"
+        "corretta": "[meno (2 elevato a N-1), 2 elevato a N-1 meno 1]"
     },
     {
         "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 2 (4 bit) del numero -7?",
@@ -1195,9 +1195,9 @@
             "1000",
             "1001",
             "1111",
-            "1001 (0111 -> 1000 -> 1001)"
+            "1001"
         ],
-        "corretta": "1001 (0111 -> 1000 -> 1001)"
+        "corretta": "1001"
     },
     {
         "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 2 (4 bit) del numero -8?",
@@ -1220,7 +1220,7 @@
         "corretta": "Se gli addendi hanno lo stesso segno e il risultato ha segno opposto"
     },
     {
-        "domanda": "Esercizio: Nella sottrazione in C2, $4 - 2$ (+4 è 0100, -2 è 1110). Qual è il risultato e come si gestisce il riporto?",
+        "domanda": "Esercizio: Nella sottrazione in C2, 4 - 2 (+4 è 0100, -2 è 1110). Qual è il risultato e come si gestisce il riporto?",
         "opzioni": [
             "10010; il riporto viene sommato",
             "0010; il riporto (1) viene trascurato",
@@ -1247,7 +1247,7 @@
             "-4",
             "3"
         ],
-        "corretta": "1 (5 - Eccesso = 5 - 4 = 1)"
+        "corretta": "1"
     },
     {
         "domanda": "Quali sono le due forme di rappresentazione dei numeri reali in aritmetica finita binaria?",
@@ -1290,7 +1290,7 @@
         "corretta": "Notazione scientifica (o esponenziale)"
     },
     {
-        "domanda": "Nella notazione scientifica $x = M \times B^E$, a cosa è legata la precisione della rappresentazione?",
+        "domanda": "Nella notazione scientifica X = M moltiplicato per B elevato a E, a cosa è legata la precisione della rappresentazione?",
         "opzioni": [
             "Al numero di cifre che compongono l'esponente",
             "Al numero di cifre che compongono la mantissa",
@@ -1302,12 +1302,12 @@
     {
         "domanda": "Qual è la 'forma standard' (normalizzata) di un numero in virgola mobile binaria nello standard IEEE 754?",
         "opzioni": [
-            "$0.$XXXXX...",
-            "$\pm 10.$XXXXX...",
-            "$1.$XXXXX... (con un 1 implicito)",
-            "XXXXX... $\times 2^E$"
+            "0.XXXXX...",
+            "più/meno 10.XXXXX...",
+            "1.XXXXX... (con un 1 implicito)",
+            "XXXXX... moltiplicato per 2 elevato a E"
         ],
-        "corretta": "$1.$XXXXX... (con un 1 implicito)"
+        "corretta": "1.XXXXX... (con un 1 implicito)"
     },
     {
         "domanda": "Nello standard IEEE 754 a singola precisione (32 bit), quanti bit sono destinati alla Mantissa (parte frazionaria)?",
@@ -1324,30 +1324,30 @@
         "opzioni": [
             "255",
             "128",
-            "127 ($2^{8-1}-1$)",
+            "127 (calcolato come 2 elevato a (8-1) meno 1)",
             "23"
         ],
-        "corretta": "127 ($2^{8-1}-1$)"
+        "corretta": "127 (calcolato come 2 elevato a (8-1) meno 1)"
     },
     {
-        "domanda": "Esercizio: Convertire il numero decimale (13.25)$_{10}$ in binario normalizzato (forma $1.XXX \times 2^n$).",
+        "domanda": "Esercizio: Convertire il numero decimale (13.25) in base 10 in binario normalizzato (forma 1.XXX moltiplicato per 2 elevato a N).",
         "opzioni": [
-            "$1.10101 \times 2^3$",
-            "$1.325 \times 2^1$",
-            "$1.1101 \times 2^3$",
-            "$0.110101 \times 2^4$"
+            "1.10101 moltiplicato per 2 elevato a 3",
+            "1.325 moltiplicato per 2 elevato a 1",
+            "1.1101 moltiplicato per 2 elevato a 3",
+            "1.10101 moltiplicato per 2 elevato a 3"
         ],
-        "corretta": "$1.10101 \times 2^3$"
+        "corretta": "1.10101 moltiplicato per 2 elevato a 3"
     },
     {
-        "domanda": "Esercizio: Nel caso di (13.25)$_{10}$ convertito ($+1.10101 \times 2^3$) in singola precisione, qual è l'esponente con eccesso (ESP+eccesso)?",
+        "domanda": "Esercizio: Nel caso di (13.25) in base 10 convertito (+1.10101 moltiplicato per 2 elevato a 3) in singola precisione, qual è l'esponente con eccesso (ESP + eccesso)?",
         "opzioni": [
-            "(130)$_{10}$",
-            "(127)$_{10}$",
-            "(3)$_{10}$",
-            "(124)$_{10}$"
+            "(130) in base 10",
+            "(127) in base 10",
+            "(3) in base 10",
+            "(124) in base 10"
         ],
-        "corretta": "(130)$_{10}$ ($127 + 3 = 130$)"
+        "corretta": "(130) in base 10"
     },
     {
         "domanda": "Cosa indica la rappresentazione in IEEE 754 quando tutti i bit dell'esponente valgono 1 e tutti i bit della mantissa valgono 0?",
@@ -1355,9 +1355,9 @@
             "Zero",
             "NaN (Not a Number)",
             "Overflow",
-            "Infinito ($\infty$)"
+            "Infinito (simbolo Infinito)"
         ],
-        "corretta": "Infinito ($\infty$)"
+        "corretta": "Infinito (simbolo Infinito)"
     },
     {
         "domanda": "Cosa indica la rappresentazione in IEEE 754 quando tutti i bit dell'esponente valgono 0 e tutti i bit della mantissa valgono 0?",
@@ -1430,14 +1430,14 @@
         "corretta": "Conversione A/D"
     },
     {
-        "domanda": "Qual è il tempo richiesto dal processore per eseguire un programma $P$ secondo i parametri $N$ (numero istruzioni), $CPI$ e $\tau$ (durata ciclo di clock)?",
+        "domanda": "Qual è il tempo richiesto dal processore per eseguire un programma P secondo i parametri N (numero istruzioni), CPI e tau (durata ciclo di clock)?",
         "opzioni": [
-            "$T_{empo} = CPI / (N \times \tau)$",
-            "$T_{empo} = \tau \times CPI \times N$",
-            "$T_{empo} = CPI \times N$",
-            "$T_{empo} = N / (CPI \times \tau)$"
+            "Tempo = CPI diviso (N moltiplicato per tau)",
+            "Tempo = tau moltiplicato per CPI moltiplicato per N",
+            "Tempo = CPI moltiplicato per N",
+            "Tempo = N diviso (CPI moltiplicato per tau)"
         ],
-        "corretta": "$T_{empo} = \tau \times CPI \times N$"
+        "corretta": "Tempo = tau moltiplicato per CPI moltiplicato per N"
     },
     {
         "domanda": "I registri sono realizzati fisicamente mediante circuiti di tipo:",
@@ -1482,12 +1482,12 @@
     {
         "domanda": "Qual è la proprietà logica di Assorbimento per l'operatore OR?",
         "opzioni": [
-            "$A \bullet 0 = 0$",
-            "$A + 1 = 1$",
-            "$A + A = A$",
-            "$\overline{A} \bullet \overline{B} = \overline{(A+B)}$"
+            "A AND 0 = 0",
+            "A OR 1 = 1",
+            "A OR A = A",
+            "NOT A AND NOT B = NOT (A OR B)"
         ],
-        "corretta": "$A + 1 = 1$"
+        "corretta": "A OR 1 = 1"
     },
     {
         "domanda": "Come viene realizzata la Porta Logica NAND usando i transistor?",
@@ -1500,7 +1500,7 @@
         "corretta": "Transistor in serie"
     },
     {
-        "domanda": "Esercizio Logico: Qual è il risultato dell'espressione $\overline{A} \bullet \overline{B}$ se A=0 e B=0?",
+        "domanda": "Esercizio Logico: Qual è il risultato dell'espressione NOT A AND NOT B se A=0 e B=0?",
         "opzioni": [
             "0",
             "1",
@@ -1510,7 +1510,7 @@
         "corretta": "1"
     },
     {
-        "domanda": "Qual è il valore decimale del numero binario (0111)$_2$ in rappresentazione Complemento a 2 a 4 bit?",
+        "domanda": "Qual è il valore decimale del numero binario (0111) in base 2 in rappresentazione Complemento a 2 a 4 bit?",
         "opzioni": [
             "-7",
             "7",
@@ -1520,7 +1520,7 @@
         "corretta": "7"
     },
     {
-        "domanda": "Esercizio: Qual è il valore decimale del numero binario (1000)$_2$ in rappresentazione Complemento a 2 a 4 bit?",
+        "domanda": "Esercizio: Qual è il valore decimale del numero binario (1000) in base 2 in rappresentazione Complemento a 2 a 4 bit?",
         "opzioni": [
             "-8",
             "8",
@@ -1532,22 +1532,22 @@
     {
         "domanda": "Esercizio: Convertire 50 (base 10) in base 8.",
         "opzioni": [
-            "(62)$_8$",
-            "(100)$_8$",
-            "(50)$_8$",
-            "(32)$_8$"
+            "(62) in base 8",
+            "(100) in base 8",
+            "(50) in base 8",
+            "(32) in base 8"
         ],
-        "corretta": "(62)$_8$"
+        "corretta": "(62) in base 8"
     },
     {
         "domanda": "Esercizio: Convertire 42 (base 10) in base 16.",
         "opzioni": [
-            "(42)$_{16}$",
-            "(2A)$_{16}$",
-            "(2B)$_{16}$",
-            "(101010)$_{16}$"
+            "(42) in base 16",
+            "(2A) in base 16",
+            "(2B) in base 16",
+            "(101010) in base 16"
         ],
-        "corretta": "(2A)$_{16}$"
+        "corretta": "(2A) in base 16"
     },
     {
         "domanda": "Nella rappresentazione in virgola mobile, se si aumenta il numero di cifre dell'esponente, cosa aumenta?",
@@ -1573,11 +1573,11 @@
         "domanda": "Esercizio: Dato (700 + 400) – 300, se lavorassimo nell'aritmetica finita degli interi positivi rappresentabili con 3 cifre decimali, si avrebbe un problema di:",
         "opzioni": [
             "Underflow",
-            "Overflow (1100 > 999)",
+            "Overflow (1100 è maggiore di 999)",
             "Precisione",
             "Nessun problema"
         ],
-        "corretta": "Overflow (1100 > 999)"
+        "corretta": "Overflow (1100 è maggiore di 999)"
     },
     {
         "domanda": "L'insieme delle informazioni contenute nei vari registri (PC, IR, etc.) costituisce:",
@@ -1662,22 +1662,22 @@
     {
         "domanda": "Qual è il più piccolo numero positivo rappresentabile nello standard IEEE 754 in singola precisione (denormalizzato)?",
         "opzioni": [
-            "$2^{-149}$",
-            "$2^{-126}$",
-            "$2^{128}$",
+            "2 elevato a -149",
+            "2 elevato a -126",
+            "2 elevato a 128",
             "0.125"
         ],
-        "corretta": "$2^{-149}$"
+        "corretta": "2 elevato a -149"
     },
     {
-        "domanda": "Esercizio: Dato che 1 Gigabyte (GB) = $2^{30}$ byte e 1 Terabyte (TB) = $2^{40}$ byte. Quanti DVD da 4 GB è possibile memorizzare in un Hard Disk da 1 TB?",
+        "domanda": "Esercizio: Quanti DVD da 4 GB è possibile memorizzare in un Hard Disk da 1 TB? (1 GB = 2^30 byte, 1 TB = 2^40 byte)",
         "opzioni": [
             "10",
-            "$2^{18}$",
+            "2 elevato a 18",
             "1024",
             "256"
         ],
-        "corretta": "256 ($1 TB / 4 GB = 2^{40} / (4 \times 2^{30}) = 2^{40} / (2^2 \times 2^{30}) = 2^{40} / 2^{32} = 2^8 = 256$)"
+        "corretta": "256"
     },
     {
         "domanda": "Esercizio: In quale rappresentazione a 4 bit la stringa 1000 è il massimo numero negativo e l'unico numero negativo rappresentabile con quel modulo?",
@@ -1740,7 +1740,7 @@
         "corretta": "MFLOPS"
     },
     {
-        "domanda": "I registri hanno un tempo di accesso dell'ordine di pochi nsec. Questo è dovuto alla loro localizzazione...",
+        "domanda": "I registri hanno un tempo di accesso dell'ordine di pochi nanosecondi (nsec). Questo è dovuto alla loro localizzazione...",
         "opzioni": [
             "All'esterno del processore",
             "All'interno della CPU",
@@ -1760,7 +1760,7 @@
         "corretta": "Registri di dati (buffer) e Registro di stato"
     },
     {
-        "domanda": "Qual è il vantaggio strutturale nell'implementare una funzione logica complessa, come $AB+AC$, riscritta nella forma $A(B+C)$?",
+        "domanda": "Qual è il vantaggio strutturale nell'implementare una funzione logica complessa, come (A AND B) OR (A AND C), riscritta nella forma A AND (B OR C)?",
         "opzioni": [
             "Richiede più porte logiche",
             "Aumenta la complessità strutturale",
@@ -1770,17 +1770,17 @@
         "corretta": "Richiede un minor numero di porte"
     },
     {
-        "domanda": "Esercizio: Scrivere la tavola di verità per l’espressione logica $\overline{(\overline{A} \cdot \overline{B})}$ equivale a quale operatore (Legge di De Morgan)?",
+        "domanda": "Esercizio: Scrivere la tavola di verità per l’espressione logica NOT (NOT A AND NOT B) equivale a quale operatore (Legge di De Morgan)?",
         "opzioni": [
-            "AND ($A \cdot B$)",
-            "OR ($A + B$)",
-            "NOT ($\overline{A}$)",
+            "AND (A AND B)",
+            "OR (A OR B)",
+            "NOT (NOT A)",
             "XOR"
         ],
-        "corretta": "OR ($A + B$) ($\overline{\overline{A} \cdot \overline{B}} = A + B$)"
+        "corretta": "OR (A OR B)"
     },
     {
-        "domanda": "Nel processo di conversione di base di un numero intero $x$ nella base $b$, la procedura richiede che la stringa finale sia:",
+        "domanda": "Nel processo di conversione di base di un numero intero X nella base B, la procedura richiede che la stringa finale sia:",
         "opzioni": [
             "Invertita",
             "Lasciata come ottenuta",
@@ -1850,7 +1850,7 @@
         "corretta": "Complemento a 2"
     },
     {
-        "domanda": "Esercizio: Convertire la stringa ternaria (12012)$_3$ nel sistema decimale.",
+        "domanda": "Esercizio: Convertire la stringa ternaria (12012) in base 3 nel sistema decimale.",
         "opzioni": [
             "140",
             "120",
@@ -1880,14 +1880,14 @@
         "corretta": "Il progetto logico dei componenti HW e la comunicazione tra essi"
     },
     {
-        "domanda": "Esercizio: Eseguire la somma binaria $1111 + 0001$ (interi senza segno a 4 bit).",
+        "domanda": "Esercizio: Eseguire la somma binaria 1111 + 0001 (interi senza segno a 4 bit).",
         "opzioni": [
             "10000 (Riporto di 1)",
             "0000 (Overflow)",
             "1111",
             "1000"
         ],
-        "corretta": "0000 (Overflow) (In aritmetica finita a 4 bit: 15+1=16. 10000 troncato a 4 bit dà 0000, overflow)"
+        "corretta": "0000 (Overflow)"
     },
     {
         "domanda": "Per ridurre la complessità strutturale di un circuito logico, l'espressione logica della funzione viene semplificata applicando:",
@@ -1940,7 +1940,7 @@
         "corretta": "Il numero di cicli di bus al secondo (frequenza)"
     },
     {
-        "domanda": "Esercizio: In quale rappresentazione a 4 bit il numero binario 0000 rappresenta sia +0 che -0?",
+        "domanda": "Esercizio: In quale rappresentazione a 4 bit la stringa 0000 rappresenta sia +0 che -0?",
         "opzioni": [
             "Complemento a 2",
             "Modulo e Segno",
@@ -1980,14 +1980,14 @@
         "corretta": "Insieme di n celle, tipicamente 1 byte o 1 word"
     },
     {
-        "domanda": "Qual è la formula per il MIPS rate in termini di frequenza di clock ($f$) e $CPI$?",
+        "domanda": "Qual è la formula del MIPS rate in termini di frequenza di clock (f) e CPI?",
         "opzioni": [
-            "$MIPS = 10^6 \times f / CPI$",
-            "$MIPS = CPI \times f / 10^6$",
-            "$MIPS = f / CPI$",
-            "$MIPS = (1-H) \times f$"
+            "MIPS = 10 elevato a 6 moltiplicato per f diviso CPI",
+            "MIPS = CPI moltiplicato per f diviso 10 elevato a 6",
+            "MIPS = f diviso CPI",
+            "MIPS = (1-H) moltiplicato per f"
         ],
-        "corretta": "$MIPS = 10^6 \times f / CPI$"
+        "corretta": "MIPS = 10 elevato a 6 moltiplicato per f diviso CPI"
     },
     {
         "domanda": "Perché si afferma che in aritmetica finita l'elaboratore non gode della proprietà associativa, ad esempio nella somma?",
@@ -2027,7 +2027,7 @@
             "0.5",
             "-1.0"
         ],
-        "corretta": "0.5 (Esponente effettivo 126-127 = -1. Numero = $+1.0 \times 2^{-1} = 0.5$)"
+        "corretta": "0.5"
     },
     {
         "domanda": "Cosa si ottiene se si cerca di rappresentare il numero ternario 0,1 in decimale?",
@@ -2042,12 +2042,12 @@
     {
         "domanda": "Qual è la formula del Logarithm of the Ceiling (usata per i bit necessari a rappresentare K informazioni)?",
         "opzioni": [
-            "$\lfloor log_2 K \rfloor$",
-            "$\lceil log_2 K \rceil$",
-            "$2^K$",
-            "$K \times 2$"
+            "Logaritmo in base 2 di K arrotondato per difetto",
+            "Logaritmo in base 2 di K arrotondato per eccesso",
+            "2 elevato a K",
+            "K moltiplicato per 2"
         ],
-        "corretta": "$\lceil log_2 K \rceil$"
+        "corretta": "Logaritmo in base 2 di K arrotondato per eccesso"
     },
     {
         "domanda": "Perché le cache di livello L3, pur avendo un miglior hit rate, sono più lente delle L1 e L2?",
@@ -2157,7 +2157,7 @@
             "-4",
             "-1"
         ],
-        "corretta": "3 (7 - Eccesso = 7 - 4 = 3)"
+        "corretta": "3"
     },
     {
         "domanda": "Qual è il nome di un tipo di EEPROM cancellabile a blocchi e utilizzata nelle attuali schede SD?",
@@ -2172,12 +2172,12 @@
     {
         "domanda": "Nella conversione Binario a Esadecimale (o viceversa), quale potenza di 2 rende l'uso della scorciatoia efficiente?",
         "opzioni": [
-            "$2^2 = 4$",
-            "$2^3 = 8$",
-            "$2^4 = 16$",
-            "$2^8 = 256$"
+            "2 elevato a 2 = 4",
+            "2 elevato a 3 = 8",
+            "2 elevato a 4 = 16",
+            "2 elevato a 8 = 256"
         ],
-        "corretta": "$2^4 = 16$"
+        "corretta": "2 elevato a 4 = 16"
     },
     {
         "domanda": "Il Latch S-R è costituito da due porte logiche collegate mediante segnali retroattivi. Quali porte sono utilizzate?",
@@ -2220,14 +2220,14 @@
         "corretta": "0"
     },
     {
-        "domanda": "Esercizio: Convertire la stringa binaria (10110)$_2$ nel sistema decimale.",
+        "domanda": "Esercizio: Convertire la stringa binaria (10110) in base 2 nel sistema decimale.",
         "opzioni": [
             "16",
             "22",
             "18",
             "24"
         ],
-        "corretta": "22 ($1\times 16 + 0\times 8 + 1\times 4 + 1\times 2 + 0\times 1 = 22$)"
+        "corretta": "22"
     },
     {
         "domanda": "Esercizio: Qual è la rappresentazione in Modulo e Segno (4 bit) del numero -3?",
@@ -2247,7 +2247,7 @@
             "1100",
             "1111"
         ],
-        "corretta": "1011 (+4 è 0100, C1 è 1011)"
+        "corretta": "1011"
     },
     {
         "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 2 (4 bit) del numero -4?",
@@ -2257,7 +2257,7 @@
             "1011",
             "1111"
         ],
-        "corretta": "1100 (+4 è 0100, C1 è 1011, C2 è 1100)"
+        "corretta": "1100"
     },
     {
         "domanda": "L'aggettivo 'digitale' significa essenzialmente:",
@@ -2282,12 +2282,12 @@
     {
         "domanda": "Esercizio: Convertire 20 (base 10) in base 3.",
         "opzioni": [
-            "(201)$_3$",
-            "(102)$_3$",
-            "(221)$_3$",
-            "(121)_3$"
+            "(201) in base 3",
+            "(102) in base 3",
+            "(221) in base 3",
+            "(202) in base 3"
         ],
-        "corretta": "(202)$_3$ (20/3=6 R2; 6/3=2 R0; 2/3=0 R2. Invertito: 202)"
+        "corretta": "(202) in base 3"
     },
     {
         "domanda": "Esercizio: Qual è il massimo numero intero positivo rappresentabile in C2 a 8 bit?",
@@ -2297,7 +2297,7 @@
             "127",
             "256"
         ],
-        "corretta": "127 ($2^{8-1}-1 = 127$)"
+        "corretta": "127"
     },
     {
         "domanda": "Qual è il principale limite architetturale degli elaboratori basati sul modello di Von Neumann?",
