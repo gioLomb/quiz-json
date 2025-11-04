@@ -1,737 +1,2322 @@
 [
     {
-        "domanda": "Quale programma rappresenta il componente comune a tutte le distribuzioni Linux?",
+        "domanda": "Cos'è l'Informatica?",
         "opzioni": [
-            "CentOS",
-            "Kernel Linux",
-            "Red Hat",
-            "CoreOS"
+            "Scienza che si occupa solo della memorizzazione dei dati",
+            "Scienza che si occupa della rappresentazione e della elaborazione automatica dell'informazione",
+            "La macchina che esegue le istruzioni",
+            "La procedura non automatizzata per risolvere un problema"
         ],
-        "corretta": "Kernel Linux"
+        "corretta": "Scienza che si occupa della rappresentazione e della elaborazione automatica dell'informazione"
     },
     {
-        "domanda": "Quale dei seguenti aspetti \u00e8 considerato nella scelta di una distribuzione Linux?",
+        "domanda": "Qual è la definizione di Elaboratore?",
         "opzioni": [
-            "Costo",
-            "Colore dell'interfaccia",
-            "Supporto per programmi proprietari",
-            "Dimensione del disco"
+            "Unicamente la struttura fisica dell'elaboratore",
+            "Un insieme di programmi (SW)",
+            "Mezzo strumentale (macchina) per la rappresentazione, la memorizzazione e l'elaborazione delle informazioni (dati)",
+            "La descrizione della procedura in linguaggio formale"
         ],
-        "corretta": "Costo"
+        "corretta": "Mezzo strumentale (macchina) per la rappresentazione, la memorizzazione e l'elaborazione delle informazioni (dati)"
     },
     {
-        "domanda": "Qual \u00e8 il sistema operativo integrato che fornisce una interfaccia utente grafica intuitiva ed \u00e8 supportato da molti fornitori di hardware?",
+        "domanda": "Cos'è un Algoritmo (Procedura di elaborazione)?",
         "opzioni": [
-            "Raspbian",
-            "Windows Embedded",
-            "Android",
-            "iOS"
+            "Una sequenza infinita di azioni per risolvere un problema",
+            "Una sequenza finita di istruzioni in linguaggio macchina",
+            "Una sequenza finita di azioni che consente di risolvere un problema in un tempo finito",
+            "Solo la specifica dei dati da elaborare"
         ],
-        "corretta": "Android"
+        "corretta": "Una sequenza finita di azioni che consente di risolvere un problema in un tempo finito"
     },
     {
-        "domanda": "Il Raspberry Pi \u00e8 noto per quale serie di pin che consente di collegare dispositivi elettronici e schede di estensione?",
+        "domanda": "Quali elementi deve contenere la descrizione di una procedura?",
         "opzioni": [
-            "CPU Pins",
-            "General Purpose Input-Output (GPIO)",
-            "Ethernet Pins",
-            "USB Headers"
+            "Solo la specifica dei dati da elaborare",
+            "La specifica dei dati, l’insieme delle azioni da compiere e la specifica dei controlli che determinano l’ordine con cui eseguire le azioni",
+            "Solo la sintassi e la semantica ambigua",
+            "L'astrazione in livelli"
         ],
-        "corretta": "General Purpose Input-Output (GPIO)"
+        "corretta": "La specifica dei dati, l’insieme delle azioni da compiere e la specifica dei controlli che determinano l’ordine con cui eseguire le azioni"
     },
     {
-        "domanda": "In quale tipo di offerta cloud Linux \u00e8 di solito proposto, fornendo macchine virtuali caricate da un'immagine?",
+        "domanda": "Cos'è un Programma nel contesto dell'elaborazione automatica dell'informazione?",
         "opzioni": [
-            "Platform as a Service (PaaS)",
-            "Software as a Service (SaaS)",
-            "Function as a Service (FaaS)",
-            "Infrastructure as a Service (IaaS)"
+            "La struttura fisica (Hardware)",
+            "La descrizione della procedura di elaborazione in un linguaggio formale, detto linguaggio di programmazione, più vicino al linguaggio della macchina",
+            "Un comando con sintassi e semantica non ambigua",
+            "Un sistema di elaborazione non memorizzato"
         ],
-        "corretta": "Infrastructure as a Service (IaaS)"
+        "corretta": "La descrizione della procedura di elaborazione in un linguaggio formale, detto linguaggio di programmazione, più vicino al linguaggio della macchina"
     },
     {
-        "domanda": "Quale distribuzione Linux \u00e8 generalmente raccomandata per i principianti per la sua facilit\u00e0 d'uso, a differenza della sua base?",
+        "domanda": "Quali sono i due macro-componenti fondamentali di un sistema di elaborazione?",
         "opzioni": [
-            "Debian GNU/Linux",
-            "CentOS",
-            "Ubuntu",
-            "Scientific Linux"
+            "Firmware e Software Applicativo",
+            "ALU e CU",
+            "Hardware e Software",
+            "Registri e Memoria Centrale"
         ],
-        "corretta": "Ubuntu"
+        "corretta": "Hardware e Software"
     },
     {
-        "domanda": "Quale comando opera su singoli file di pacchetto (file .deb o .rpm), a differenza dei gestori di alto livello che usano i repository?",
+        "domanda": "A quale categoria di Software appartiene il Sistema Operativo?",
         "opzioni": [
-            "apt-get",
-            "dnf",
-            "dpkg",
-            "yum"
+            "Software Applicativo",
+            "Firmware",
+            "Software di Base (Programmi di gestione del sistema)",
+            "Software di Controllo"
         ],
-        "corretta": "dpkg"
+        "corretta": "Software di Base (Programmi di gestione del sistema)"
     },
     {
-        "domanda": "Quali comandi sono utilizzati sui sistemi che utilizzano pacchetti DEB per l'installazione?",
+        "domanda": "Cosa si intende per Firmware?",
         "opzioni": [
-            "yum o dnf",
-            "apt-get o apt",
-            "rpm o dpkg",
-            "install o remove"
+            "L'insieme dei programmi che permettono di svolgere compiti specifici",
+            "Software codificato in hardware",
+            "Programmi di gestione del sistema operativo",
+            "La struttura fisica dell'elaboratore"
         ],
-        "corretta": "apt-get o apt"
+        "corretta": "Software codificato in hardware"
     },
     {
-        "domanda": "Quale tipo di utente ha le autorizzazioni speciali necessarie per eseguire operazioni di installazione o rimozione di un pacchetto?",
+        "domanda": "Un livello di rappresentazione 'alto' è più vicino a quale tipo di interpretazione?",
         "opzioni": [
-            "Qualsiasi utente standard",
-            "Il superuser (root)",
-            "Solo gli utenti nel gruppo 'users'",
-            "Gli utenti che usano `sudo` senza password"
+            "Numerica",
+            "Binaria",
+            "Simbolica/Umana",
+            "Digitale"
         ],
-        "corretta": "Il superuser (root)"
+        "corretta": "Simbolica/Umana"
     },
     {
-        "domanda": "Qual \u00e8 il comando da anteporre sui sistemi desktop per consentire agli utenti ordinari di installare o rimuovere pacchetti?",
+        "domanda": "L'elaboratore è un sistema principalmente di che tipo?",
         "opzioni": [
-            "login",
-            "su",
-            "root",
-            "sudo"
+            "Analogico e continuo",
+            "Digitale binario",
+            "Ternario",
+            "Simbolico"
         ],
-        "corretta": "sudo"
+        "corretta": "Digitale binario"
     },
     {
-        "domanda": "Quale dei seguenti \u00e8 un popolare server HTTP open source menzionato nel contesto dei programmi server?",
+        "domanda": "Nella rappresentazione binaria, a quale livello di tensione elettrica è interpretato il valore '1'?",
         "opzioni": [
-            "Microsoft IIS",
-            "NGINX",
-            "Oracle HTTP Server",
-            "Tomcat"
+            "Basso livello (da 0 a 1 volt)",
+            "Alto livello (da 2 a 5 volt)",
+            "Tensione massima",
+            "Livello intermedio (da 1 a 2 volt)"
         ],
-        "corretta": "NGINX"
+        "corretta": "Alto livello (da 2 a 5 volt)"
     },
     {
-        "domanda": "Qual \u00e8 il linguaggio di scripting pi\u00f9 comune usato lato server HTTP per generare contenuto dinamico?",
+        "domanda": "Qual è uno dei vantaggi principali della rappresentazione binaria nell'elaboratore?",
         "opzioni": [
-            "JavaScript",
-            "C++",
-            "PHP",
-            "Python"
+            "Maggiore complessità circuitale",
+            "Alta probabilità di errore",
+            "Affidabilità (bassa probabilità di errore) dovuta alla massima separazione tra bande di valori",
+            "Minore velocità di elaborazione"
         ],
-        "corretta": "PHP"
+        "corretta": "Affidabilità (bassa probabilità di errore) dovuta alla massima separazione tra bande di valori"
     },
     {
-        "domanda": "Quali sono i database relazionali open source pi\u00f9 popolari menzionati, di cui uno \u00e8 un fork dell'altro?",
+        "domanda": "Qual è l'unità fondamentale di informazione?",
         "opzioni": [
-            "MongoDB e Cassandra",
-            "MariaDB e PostgreSQL",
-            "Oracle e MySQL",
-            "SQL Server e MariaDB"
+            "Byte",
+            "Word",
+            "Bit (BInary DigiT)",
+            "Kilo"
         ],
-        "corretta": "MariaDB e PostgreSQL"
+        "corretta": "Bit (BInary DigiT)"
     },
     {
-        "domanda": "Quale applicazione della suite LibreOffice \u00e8 utilizzata per lavorare con fogli di calcolo elettronici?",
+        "domanda": "Quante informazioni diverse si possono rappresentare con una stringa di N bit?",
         "opzioni": [
-            "Impress",
-            "Draw",
-            "Writer",
-            "Calc"
+            "N^2",
+            "N / 2",
+            "N * 2",
+            "2^N"
         ],
-        "corretta": "Calc"
+        "corretta": "2^N"
     },
     {
-        "domanda": "Quale browser web open source \u00e8 la base per lo sviluppo di Google Chrome?",
+        "domanda": "A quanto equivale 1 Megabyte (MB)?",
         "opzioni": [
-            "Firefox",
-            "Chromium",
-            "Mozilla",
-            "Thunderbird"
+            "1024 GB",
+            "1024 byte",
+            "2^10 byte",
+            "1024 KB"
         ],
-        "corretta": "Chromium"
+        "corretta": "1024 KB"
     },
     {
-        "domanda": "Quale pacchetto software consente la condivisione di file tra macchine Linux e Windows sulla rete locale?",
+        "domanda": "Se si devono rappresentare K=5 informazioni diverse, quanti bit sono necessari (usando l'arrotondamento per eccesso della formula $\lceil log_2 K \rceil$)?",
         "opzioni": [
-            "NFS",
-            "Samba",
-            "Apache",
-            "Nextcloud"
+            "2 bit",
+            "3 bit",
+            "4 bit",
+            "5 bit"
         ],
-        "corretta": "Samba"
+        "corretta": "3 bit"
     },
     {
-        "domanda": "Qual \u00e8 il comando per rimuovere un pacchetto installato su un sistema basato su DEB, *inclusi* i relativi file di configurazione?",
+        "domanda": "La traduzione di un programma da linguaggio Assembly a linguaggio macchina è di che tipo?",
         "opzioni": [
-            "apt-get clean",
-            "apt-get remove",
-            "apt-get purge",
-            "dpkg -r"
+            "1 a molti",
+            "1 a 1",
+            "Molti a 1",
+            "Non necessaria"
         ],
-        "corretta": "apt-get purge"
+        "corretta": "1 a 1"
     },
     {
-        "domanda": "Il linguaggio di programmazione Perl \u00e8 noto per dare grande importanza a quale concetto, rendendolo adatto per il filtraggio e l'analisi del testo?",
+        "domanda": "Qual è la differenza tra Compilazione e Interpretazione riguardo alla generazione del programma oggetto?",
         "opzioni": [
-            "Compilazione Just-In-Time",
-            "Espressioni Regolari",
-            "Tipizzazione forte",
-            "Programmazione ad oggetti"
+            "La Compilazione non genera il programma oggetto, l'Interpretazione sì",
+            "L'Interpretazione non genera il programma oggetto, la Compilazione sì",
+            "Entrambi generano il programma oggetto",
+            "Solo l'interprete rileva gli errori sintattici"
         ],
-        "corretta": "Espressioni Regolari"
+        "corretta": "L'Interpretazione non genera il programma oggetto, la Compilazione sì"
     },
     {
-        "domanda": "Quale dei seguenti \u00e8 un linguaggio di programmazione classificato come 'compilato'?",
+        "domanda": "Nel processo di Compilazione, in quale fase vengono rilevati gli errori semantici?",
         "opzioni": [
-            "Shell script",
-            "PHP",
-            "Java",
-            "Python"
+            "Fase di Compilazione (traduzione)",
+            "Fase di Esecuzione",
+            "Fase di Fetch",
+            "Fase di Decode"
         ],
-        "corretta": "Java"
+        "corretta": "Fase di Esecuzione"
     },
     {
-        "domanda": "Quale linguaggio di programmazione \u00e8 anche un'interfaccia interattiva utilizzata per eseguire altri programmi e pu\u00f2 automatizzare attivit\u00e0 complesse con i suoi script?",
+        "domanda": "Rispetto all'interpretazione, il processo di compilazione è generalmente più veloce nell'esecuzione, ma...?",
         "opzioni": [
-            "JavaScript",
-            "C",
-            "Shell (Bash)",
-            "Java"
+            "Rende più agevole la messa a punto dei programmi",
+            "Rende meno agevole la messa a punto dei programmi",
+            "Non influisce sui tempi",
+            "Permette la traduzione 1 a 1"
         ],
-        "corretta": "Shell (Bash)"
+        "corretta": "Rende meno agevole la messa a punto dei programmi"
     },
     {
-        "domanda": "Qual \u00e8 il significato del termine LAMP, in riferimento a una popolare soluzione per server web?",
+        "domanda": "Qual è un limite tecnologico del modello di Von Neumann che la memoria cache è progettata per superare?",
         "opzioni": [
-            "Linux, Apple, MySQL, PHP",
-            "Linux, Apache, MariaDB, Python",
-            "Linux, Apache, MySQL/MariaDB, PHP",
-            "Linux, Ansible, MongoDB, Perl"
+            "Il collo di bottiglia architetturale",
+            "L'accesso sequenziale ai dati",
+            "La velocità di accesso della RAM è inferiore alla velocità di elaborazione del processore",
+            "La necessità di usare linguaggi di alto livello"
         ],
-        "corretta": "Linux, Apache, MySQL/MariaDB, PHP"
+        "corretta": "La velocità di accesso della RAM è inferiore alla velocità di elaborazione del processore"
     },
     {
-        "domanda": "In quale modo sono classificati JavaScript, Perl, Shell script, Python e PHP in termini di esecuzione del codice?",
+        "domanda": "Quale principio è alla base del funzionamento della memoria cache?",
         "opzioni": [
-            "Compilati",
-            "Compilati in Bytecode",
-            "Interpretati",
-            "Ibridi"
+            "Principio di non volatilità",
+            "Principio di coerenza",
+            "Principio di località dei riferimenti",
+            "Principio di accesso diretto"
         ],
-        "corretta": "Interpretati"
+        "corretta": "Principio di località dei riferimenti"
     },
     {
-        "domanda": "Qual \u00e8 la 'Libert\u00e0 0' del software libero, secondo Richard Stallman?",
+        "domanda": "La memoria cache è interposta tra quali due componenti principali?",
         "opzioni": [
-            "La libert\u00e0 di distribuire il codice modificato.",
-            "La libert\u00e0 di eseguire il programma come desideri, per qualsiasi scopo.",
-            "La libert\u00e0 di studiare come funziona il programma.",
-            "La libert\u00e0 di pubblicare il codice sorgente."
+            "Memoria di massa e Memoria centrale",
+            "CPU e Periferiche di I/O",
+            "CPU e memoria principale",
+            "ALU e Unità di Controllo"
         ],
-        "corretta": "La libert\u00e0 di eseguire il programma come desideri, per qualsiasi scopo."
+        "corretta": "CPU e memoria principale"
     },
     {
-        "domanda": "Cosa presuppone la 'Libert\u00e0 1' (la libert\u00e0 di studiare e adattare il programma)?",
+        "domanda": "Cosa rappresenta $H$ nella formula del tempo di accesso medio alla cache $T_A = T_C + (1-H) \times T_M$?",
         "opzioni": [
-            "Il pagamento di una royalty.",
-            "L'approvazione dell'autore originale.",
-            "La rinuncia al copyright.",
-            "L'accesso al codice sorgente."
+            "Tempo di accesso alla cache",
+            "Percentuale di fallimenti (miss rate)",
+            "Percentuale di successi (hit rate)",
+            "Tempo di accesso alla memoria centrale"
         ],
-        "corretta": "L'accesso al codice sorgente."
+        "corretta": "Percentuale di successi (hit rate)"
     },
     {
-        "domanda": "Cos'\u00e8 il crowdfunding nel contesto dei progetti FLOSS?",
+        "domanda": "Perché le cache più capienti tendono ad essere più lente rispetto a quelle meno capienti (a parità di tecnologia)?",
         "opzioni": [
-            "Un modello di licenza restrittivo.",
-            "La raccolta di donazioni in denaro per finanziare il progetto.",
-            "Un accordo di doppia licenza.",
-            "Il modello di vendita di merchandising."
+            "Richiedono meno circuiti HW per l'indirizzamento",
+            "Hanno un hit rate peggiore",
+            "Maggiore è il numero di dispositivi HW (circuiti) necessari per l'indirizzamento",
+            "Sono sempre costruite con tecnologia DRAM"
         ],
-        "corretta": "La raccolta di donazioni in denaro per finanziare il progetto."
+        "corretta": "Maggiore è il numero di dispositivi HW (circuiti) necessari per l'indirizzamento"
     },
     {
-        "domanda": "Quale modello di business FLOSS prevede la vendita di consulenza, manutenzione o assistenza tecnica direttamente dal produttore?",
+        "domanda": "Quale livello di cache si trova all’interno del processore (cache on-chip)?",
         "opzioni": [
-            "Merchandising",
-            "SaaS",
-            "Servizi Professionali",
-            "Cloud Computing"
+            "L3",
+            "L2 (off-chip)",
+            "L1",
+            "RAM"
         ],
-        "corretta": "Servizi Professionali"
+        "corretta": "L1"
     },
     {
-        "domanda": "Cosa significa l'acronimo FLOSS?",
+        "domanda": "Qual è la capacità tipica della cache L2?",
         "opzioni": [
-            "Free Linux Open Source Software",
-            "Free Language Operating System Standard",
-            "Free Libre Open Source Software",
-            "Financial Legal Open Source Standard"
+            "Ordine di decine di KB",
+            "Ordine di pochi MB",
+            "Ordine di centinaia di MB",
+            "Ordine di GB"
         ],
-        "corretta": "Free Libre Open Source Software"
+        "corretta": "Ordine di pochi MB"
     },
     {
-        "domanda": "Quale concetto \u00e8 fondamentale nel software con licenza GPL, dove l'integrazione di codice GPL in un prodotto richiede che l'intero prodotto sia pubblicato sotto GPL?",
+        "domanda": "Quale organizzazione della cache migliora i meccanismi di prelievo anticipato delle istruzioni (pipelining)?",
         "opzioni": [
-            "Patenting",
-            "Transferware",
-            "Copyleft",
-            "Crowdfunding"
+            "Cache Unificata",
+            "Cache a livelli multipli",
+            "Cache Separata (una per i dati e una per le istruzioni)",
+            "Cache Write-through"
         ],
-        "corretta": "Copyleft"
+        "corretta": "Cache Separata (una per i dati e una per le istruzioni)"
     },
     {
-        "domanda": "Quale licenza Creative Commons (CC) \u00e8 definita come 'la licenza gratuita che consente a chiunque di modificare e distribuire l\u2019opera purch\u00e9 ne citi l\u2019autore'?",
+        "domanda": "L'algoritmo LRU (Least Recently Used) nella politica di replacement della cache, sostituisce il blocco che...",
         "opzioni": [
-            "CC NC ND",
-            "CC SA",
-            "CC BY",
-            "CC ND"
+            "È stato alterato rispetto alla memoria centrale",
+            "È rimasto nella cache più a lungo senza essere utilizzato",
+            "È stato utilizzato più recentemente",
+            "Ha il costo maggiore"
         ],
-        "corretta": "CC BY"
+        "corretta": "È rimasto nella cache più a lungo senza essere utilizzato"
     },
     {
-        "domanda": "Qual \u00e8 il file che memorizza l'hash unidirezionale (crittografato) delle password degli utenti in Linux?",
+        "domanda": "Nella politica di scrittura Write-through, qual è lo svantaggio principale?",
         "opzioni": [
-            "/etc/passwd",
-            "/etc/group",
-            "/etc/shadow",
-            "/etc/gshadow"
+            "Pochi accessi in memoria centrale",
+            "I dispositivi di I/O devono accedere alla cache",
+            "Molti accessi in memoria centrale",
+            "La coerenza della cache è garantita"
         ],
-        "corretta": "/etc/shadow"
+        "corretta": "Molti accessi in memoria centrale"
     },
     {
-        "domanda": "Quale applicazione fa parte della suite per ufficio LibreOffice ed \u00e8 lo strumento pi\u00f9 importante per le presentazioni su Linux?",
+        "domanda": "Quale politica di scrittura esegue gli aggiornamenti solo nella cache?",
         "opzioni": [
-            "Writer",
-            "Draw",
-            "Impress",
-            "Base"
+            "Write-through",
+            "Write-back",
+            "LRU",
+            "FIFO"
         ],
-        "corretta": "Impress"
+        "corretta": "Write-back"
     },
     {
-        "domanda": "Qual \u00e8 il formato di file nativo raccomandato per LibreOffice Impress, facente parte dell'Open Document Format?",
+        "domanda": "Le memorie di massa sono utilizzate per memorizzare grandi volumi di dati in modo...",
         "opzioni": [
-            "PPTX",
-            "ODS",
-            "ODP",
-            "DOCX"
+            "Volatile",
+            "Temporaneo",
+            "Persistente (non volatilità)",
+            "Ad accesso casuale"
         ],
-        "corretta": "ODP"
+        "corretta": "Persistente (non volatilità)"
     },
     {
-        "domanda": "Quale combinazione di tasti consente di accedere a un TTY virtuale da un ambiente grafico Linux?",
+        "domanda": "Quali sono le due principali tecnologie utilizzate per le memorie di massa menzionate nelle fonti?",
         "opzioni": [
-            "Ctrl + Shift + T",
-            "Ctrl + Alt + F#",
-            "Ctrl + Alt + Del",
-            "Alt + Tab"
+            "Semiconduttore e Elettromeccanica",
+            "RAM e ROM",
+            "Magnetica e Ottica",
+            "Flash e DRAM"
         ],
-        "corretta": "Ctrl + Alt + F#"
+        "corretta": "Magnetica e Ottica"
     },
     {
-        "domanda": "Quale dei seguenti \u00e8 un esempio di Software as a Service (SaaS)?",
+        "domanda": "Cosa si intende per ROM (Read Only Memory)?",
         "opzioni": [
-            "OpenStack",
-            "Heroku",
-            "Dropbox",
-            "Kernel Linux"
+            "Una memoria volatile a sola lettura",
+            "Una memoria a sola lettura, non volatile",
+            "Una RAM ad accesso casuale",
+            "Una memoria cache"
         ],
-        "corretta": "Dropbox"
+        "corretta": "Una memoria a sola lettura, non volatile"
     },
     {
-        "domanda": "Qual \u00e8 lo scopo principale dei 'tracking cookies'?",
+        "domanda": "A cosa servono istruzioni memorizzate nella ROM come il BIOS?",
         "opzioni": [
-            "Accelerare il caricamento delle pagine web.",
-            "Garantire la crittografia TLS.",
-            "Mostrare annunci mirati e seguire l'utente nel web.",
-            "Mantenere i dati in un formato crittografato."
+            "A eseguire programmi applicativi",
+            "A garantire la coerenza della cache",
+            "Per l’avvio del sistema operativo e per il riconoscimento di tutte le periferiche",
+            "A memorizzare dati utente"
         ],
-        "corretta": "Mostrare annunci mirati e seguire l'utente nel web."
+        "corretta": "Per l’avvio del sistema operativo e per il riconoscimento di tutte le periferiche"
     },
     {
-        "domanda": "Qual \u00e8 uno degli approcci pi\u00f9 sicuri per la gestione delle password, che memorizza tutte le credenziali in un formato crittografato gestito da una singola password principale?",
+        "domanda": "Quale tipo di ROM può essere programmata una sola volta, dopo la fabbricazione, con strumentazione speciale?",
         "opzioni": [
-            "Scrivere le password su carta.",
-            "Utilizzare la stessa password per tutti i servizi.",
-            "Usare una password facile da ricordare.",
-            "Utilizzare un gestore di password."
+            "EPROM",
+            "EEPROM",
+            "PROM (Programmable ROM)",
+            "Memoria Flash"
         ],
-        "corretta": "Utilizzare un gestore di password."
+        "corretta": "PROM (Programmable ROM)"
     },
     {
-        "domanda": "Quale noto gestore di password open source memorizza i dati in un file crittografato all'interno del filesystem?",
+        "domanda": "La memoria Flash è un tipo recente di EEPROM che si differenzia per la possibilità di cancellazione...",
         "opzioni": [
-            "Bitwarden (ospitato in cloud)",
-            "Salesforce",
-            "KeePass",
-            "Dropbox"
+            "Un byte alla volta",
+            "A blocchi anziché un byte alla volta",
+            "Mediante raggi ultravioletti",
+            "Solo in fase di fabbricazione"
         ],
-        "corretta": "KeePass"
+        "corretta": "A blocchi anziché un byte alla volta"
     },
     {
-        "domanda": "Cosa garantisce il fatto che un gestore di password come KeePass sia Open Source?",
+        "domanda": "Qual è un vantaggio notevole degli Hard disk a stato solido (SSD) rispetto agli HDD (Hard Disk Drive)?",
         "opzioni": [
-            "Che \u00e8 pi\u00f9 veloce di una soluzione proprietaria.",
-            "Che \u00e8 compatibile solo con Linux.",
-            "Un livello di trasparenza, permettendo agli sviluppatori di controllare il codice.",
-            "Che \u00e8 sempre gratuito per uso commerciale."
+            "Maggior costo per bit",
+            "Capacità di archiviazione maggiore",
+            "Nessun movimento meccanico, garantendo robustezza e affidabilità",
+            "Uso di tecnologia magnetica"
         ],
-        "corretta": "Un livello di trasparenza, permettendo agli sviluppatori di controllare il codice."
+        "corretta": "Nessun movimento meccanico, garantendo robustezza e affidabilità"
     },
     {
-        "domanda": "Quale sistema di crittografia utilizza coppie di chiavi pubblica e privata per firmare e crittografare dati (come e-mail e file)?",
+        "domanda": "Nei dischi magnetici, come è chiamata la disposizione fisica dei dati in anelli concentrici?",
         "opzioni": [
-            "dm-crypt",
-            "TLS",
-            "GnuPG",
-            "ROT13"
+            "Settori",
+            "Cilindri",
+            "Tracce",
+            "Blocchi"
         ],
-        "corretta": "GnuPG"
+        "corretta": "Tracce"
     },
     {
-        "domanda": "Il Set UID (SUID) e il Set GID (SGID) sono esempi di cosa in Linux?",
+        "domanda": "Qual è l'unità minima di lettura e scrittura in un disco magnetico?",
         "opzioni": [
-            "Permessi di base",
-            "Permessi speciali",
-            "Attributi di file",
-            "Link count"
+            "Traccia",
+            "Piatto",
+            "Settore (solitamente 512 byte)",
+            "Word"
         ],
-        "corretta": "Permessi speciali"
+        "corretta": "Settore (solitamente 512 byte)"
     },
     {
-        "domanda": "dm-crypt \u00e8 un esempio di quale tipo di crittografia su Linux?",
+        "domanda": "Quale componente del tempo di accesso di un disco magnetico si riferisce al tempo necessario allo spostamento radiale della testina?",
         "opzioni": [
-            "Crittografia del dispositivo a blocchi",
-            "Crittografia di directory e file",
-            "Crittografia SSL/TLS",
-            "Crittografia a livello di applicazione"
+            "Latenza di rotazione",
+            "Tempo di trasferimento",
+            "Seek time",
+            "Tempo di accesso medio (TA)"
         ],
-        "corretta": "Crittografia del dispositivo a blocchi"
+        "corretta": "Seek time"
     },
     {
-        "domanda": "Quando si utilizza la crittografia del dispositivo a blocchi (come dm-crypt), cosa succede ai metadati (struttura delle directory, permessi)?",
+        "domanda": "Esercizio: Calcolare la latenza di rotazione di un disco che ruota con velocità di 20.000 RPM.",
         "opzioni": [
-            "Sono lasciati in chiaro per facilitare il boot.",
-            "Vengono archiviati in un file separato.",
-            "Vengono anch'essi crittografati.",
-            "Sono protetti solo se si usa una VPN."
+            "3 secondi",
+            "1.5 secondi",
+            "3 msec",
+            "1.5 msec"
         ],
-        "corretta": "Vengono anch'essi crittografati."
+        "corretta": "1.5 msec"
     },
     {
-        "domanda": "Quale strumento \u00e8 il successore di Truecrypt e consente la creazione di file crittografati utilizzabili su Linux, macOS e Windows?",
+        "domanda": "Cosa si sfrutta per leggere le informazioni registrate (pit/land) sui dischi ottici?",
         "opzioni": [
-            "EncFS",
-            "GnuPG",
-            "Veracrypt",
-            "dm-crypt"
+            "L'induzione elettromagnetica",
+            "La riflessione di un raggio laser di bassa potenza",
+            "L'allineamento delle particelle magnetiche",
+            "La carica sui condensatori"
         ],
-        "corretta": "Veracrypt"
+        "corretta": "La riflessione di un raggio laser di bassa potenza"
     },
     {
-        "domanda": "L'uso di una 'finestra di navigazione in incognito' nel browser serve principalmente per:",
+        "domanda": "Rispetto ai dischi magnetici, quale caratteristica hanno i dischi ottici?",
         "opzioni": [
-            "Navigare in modo completamente anonimo in Internet.",
-            "Non lasciare traccia sul computer che si sta utilizzando.",
-            "Attivare la crittografia TLS.",
-            "Evitare i messaggi di errore."
+            "Sono soggetti ad usura meccanica",
+            "Hanno un tempo di accesso più elevato (sono più lenti)",
+            "Hanno capacità di memorizzazione superiore",
+            "Usano il metodo a cambiamento di fase"
         ],
-        "corretta": "Non lasciare traccia sul computer che si sta utilizzando."
+        "corretta": "Hanno un tempo di accesso più elevato (sono più lenti)"
     },
     {
-        "domanda": "Quale dei seguenti software \u00e8 uno strumento di presentazione basato su LaTeX, che consente di creare diapositive da codice?",
+        "domanda": "Qual è la capacità tipica di un DVD?",
         "opzioni": [
-            "LibreOffice Impress",
-            "Reveal.js",
-            "Beamer",
-            "GIMP"
+            "650 MB",
+            "Da 4.7 GB a 17 GB",
+            "25 GB",
+            "1024 KB"
         ],
-        "corretta": "Beamer"
+        "corretta": "Da 4.7 GB a 17 GB"
     },
     {
-        "domanda": "Cos'\u00e8 OpenStack?",
+        "domanda": "Qual è il transfer rate di base (1x) per un CD?",
         "opzioni": [
-            "Un hypervisor proprietario.",
-            "Una raccolta di software open source per offrire un ambiente cloud IaaS completo.",
-            "Un gestore di password basato su cloud.",
-            "Un linguaggio di scripting lato server."
+            "150 KB/s",
+            "1350 KB/s",
+            "4,5 MB/s",
+            "16,7 MB/sec"
         ],
-        "corretta": "Una raccolta di software open source per offrire un ambiente cloud IaaS completo."
+        "corretta": "150 KB/s"
     },
     {
-        "domanda": "Quale variabile contiene l'elenco delle directory in cui la shell cerca i comandi eseguibili quando non viene specificato un percorso assoluto?",
+        "domanda": "Il Blu-ray Disc (BD) utilizza un laser di che colore e lunghezza d'onda?",
         "opzioni": [
-            "$HOME",
-            "$USER",
-            "$PS1",
-            "$PATH"
+            "Laser rosso (780nm)",
+            "Laser rosso (650nm)",
+            "Laser blu (405nm)",
+            "Laser verde (532nm)"
         ],
-        "corretta": "$PATH"
+        "corretta": "Laser blu (405nm)"
     },
     {
-        "domanda": "La dimensione delle directory in un elenco lungo (ls -lh) su Linux \u00e8 tipicamente costante (es. 4.0K). Perch\u00e9 la dimensione non riflette il contenuto ricorsivo?",
+        "domanda": "Perché il Blu-ray offre una capacità di memoria significativamente più alta dell'HD-DVD?",
         "opzioni": [
-            "Le directory non contengono file.",
-            "La dimensione riflette solo il file di collegamento all'elenco dei file.",
-            "\u00c8 un errore del comando ls.",
-            "Le directory usano solo soft link."
+            "L'HD-DVD usa solo un singolo strato",
+            "Il Blu-ray usa uno strato protettivo di solo 0.1 mm, permettendo pit più piccoli",
+            "L'HD-DVD non è basato su laser blu",
+            "Il Blu-ray ha un transfer rate 1x inferiore"
         ],
-        "corretta": "La dimensione riflette solo il file di collegamento all'elenco dei file."
+        "corretta": "Il Blu-ray usa uno strato protettivo di solo 0.1 mm, permettendo pit più piccoli"
     },
     {
-        "domanda": "Qual \u00e8 la cosa pi\u00f9 importante da tenere a mente quando si utilizza un gestore di password?",
+        "domanda": "Le memorie ad accesso sequenziale (es. nastro) hanno un tempo di accesso che dipende da cosa?",
         "opzioni": [
-            "Usare solo password brevi.",
-            "Usare una password facile per i servizi meno importanti.",
-            "Usare una password casuale univoca per ognuno dei diversi servizi.",
-            "Mantenere le password scritte in un quaderno."
+            "Dalla capacità della memoria",
+            "Dalla frequenza di clock",
+            "Dalla posizione occupata dall'informazione stessa",
+            "È costante"
         ],
-        "corretta": "Usare una password casuale univoca per ognuno dei diversi servizi."
+        "corretta": "Dalla posizione occupata dall'informazione stessa"
     },
     {
-        "domanda": "Quali comandi gestiscono i pacchetti RPM (Red Hat Package Manager)?",
+        "domanda": "Nelle memorie ad accesso diretto o casuale (Random Access Memory), il tempo di accesso è...",
         "opzioni": [
-            "dpkg e apt-get",
-            "rpm e dnf",
-            "apt e yum",
-            "dpkg e yum"
+            "Proporzionale alla capacità",
+            "Indipendente dalla posizione occupata dall’informazione",
+            "Dipendente dal tempo di rotazione",
+            "Molto lento"
         ],
-        "corretta": "rpm e dnf"
+        "corretta": "Indipendente dalla posizione occupata dall’informazione"
     },
     {
-        "domanda": "What are the differences between hard disk drives and solid state disks? (Choose two.)",
+        "domanda": "Cosa caratterizza una memoria permanente o non volatile?",
         "opzioni": [
-            "Hard disks have a motor and moving parts, solid state disks do not.",
-            "Hard disks can fail due to physical damage, while solid state disks cannot fail.",
-            "Solid state disks can store many times as much data as hard disk drives.",
-            "/dev/sdais a hard disk device while /dev/ssda is a solid state disk.",
-            "Solid state disks provide faster access to stored data than hard disks."
+            "Conservano le informazioni solo in presenza di alimentazione elettrica",
+            "È a sola lettura",
+            "Conservano le informazioni anche in assenza di alimentazione elettrica",
+            "Sono realizzate mediante circuiti flip-flop"
         ],
-        "corretta": "A and E"
+        "corretta": "Conservano le informazioni anche in assenza di alimentazione elettrica"
     },
     {
-        "domanda": "How is the name of the IP address 198.51.100.165 stored on a DNS server?",
+        "domanda": "Cos'è il bus nell'elaboratore?",
         "opzioni": [
-            "In the A record for 165.100.51.198.ipv4.arpa.",
-            "In the PTR record for 165.100.51.198.in-addr.arpa.",
-            "In the RNAME record for 198-51-100-165.rev.arpa.",
-            "In the ARPA record for 165.100.51.198.rev.",
-            "In the REV record for arpa.in-addr.198.51.100.165."
+            "Il processore",
+            "L'insieme dei programmi di gestione del sistema",
+            "L'hardware che consente il trasferimento di informazioni tra i vari componenti",
+            "La memoria centrale"
         ],
-        "corretta": "B"
+        "corretta": "L'hardware che consente il trasferimento di informazioni tra i vari componenti"
     },
     {
-        "domanda": "Which of the following types of bus can connect hard disk drives with the motherboard?",
+        "domanda": "Cosa indica l'ampiezza (o larghezza) del bus?",
         "opzioni": [
-            "The RAM bus",
-            "The NUMA bus",
-            "The CPU bus",
-            "The SATA bus",
-            "The Auto bus"
+            "La frequenza di clock",
+            "La velocità di trasferimento (MB/sec)",
+            "Quanti bit possono essere trasferiti contemporaneamente",
+            "Il numero di dispositivi collegati"
         ],
-        "corretta": "D"
+        "corretta": "Quanti bit possono essere trasferiti contemporaneamente"
     },
     {
-        "domanda": "Members of a team already have experience using Red Hat Enterprise Linux. For a small hobby project, the team wants to set up a Linux server without paying for a subscription. Which distribution is best?",
+        "domanda": "Quali sono i tre gruppi funzionali delle linee di un bus?",
         "opzioni": [
-            "Ubuntu Linux LTS",
-            "Raspbian",
-            "Debian GNU/Linux",
-            "CentOS",
-            "openSUSE"
+            "Input, Output, Controllo",
+            "CPU, Memoria, I/O",
+            "Dati, Indirizzo, Controllo",
+            "Parallele, Seriali, Miste"
         ],
-        "corretta": "D"
+        "corretta": "Dati, Indirizzo, Controllo"
     },
     {
-        "domanda": "What information can be displayed by top?",
+        "domanda": "Quale tipo di bus collega la CPU con la memoria principale e con i dispositivi di I/O?",
         "opzioni": [
-            "Existing files, ordered by their size.",
-            "Running processes, ordered by CPU or RAM consumption.",
-            "User accounts, ordered by the number of logins.",
-            "User groups, ordered by the number of members.",
-            "User accounts, ordered by the number of files."
+            "Bus Interno (local bus)",
+            "Bus Dati",
+            "Bus Esterno (System bus)",
+            "Bus Parallelo"
         ],
-        "corretta": "B"
+        "corretta": "Bus Esterno (System bus)"
     },
     {
-        "domanda": "Which of the following commands can be used to resolve a DNS name to an IP address?",
+        "domanda": "Qual è il ruolo di un Driver?",
         "opzioni": [
-            "dnsname",
-            "dns",
-            "query",
-            "host",
-            "iplookup"
+            "Un dispositivo HW che gestisce l'accesso al bus",
+            "Un programma SW che permette al sistema operativo di pilotare una periferica",
+            "L'unità di controllo della CPU",
+            "Un tipo di RAM volatile"
         ],
-        "corretta": "D"
+        "corretta": "Un programma SW che permette al sistema operativo di pilotare una periferica"
     },
     {
-        "domanda": "What is true about the dmesg command? (Choose two.)",
+        "domanda": "Qual è la funzione principale del Bus Indirizzi?",
         "opzioni": [
-            "It traces the execution of a command and shows each step the program carries out.",
-            "It sends messages to the command lines of all current user sessions.",
-            "It displays the content of the Linux kernel\u2019s ring buffer.",
-            "It immediately outputs all new messages written to the system journal.",
-            "It might not display older information because it was overwritten by newer information."
+            "Trasmissione e ricezione di dati",
+            "Trasmissione dei segnali di controllo",
+            "Selezione dell'unità con cui stabilire la comunicazione",
+            "Trasferimento simultaneo di bit"
         ],
-        "corretta": "C and E"
+        "corretta": "Selezione dell'unità con cui stabilire la comunicazione"
     },
     {
-        "domanda": "Which of the following outputs could stem from the command last?",
+        "domanda": "Il Bus Indirizzi è unidirezionale o bidirezionale?",
         "opzioni": [
-            "1 ls 2 cat text.txt 3 logout",
-            "Password for user last changed at Sat Mar 31 16:38:57 EST 2018",
-            "Last login: Fri Mar 23 10:56:39 2018 from server.example.com",
-            "EXT4-fs (dm-7): mounted filesystem with ordered data mode. Opts: (null)",
-            "root tty2 Wed May 17 21:11 - 21:11 (00:00)"
+            "Unidirezionale (origina dalla CPU)",
+            "Bidirezionale",
+            "Dipende dalla temporizzazione",
+            "Dipende dall'arbitraggio"
         ],
-        "corretta": "E"
+        "corretta": "Unidirezionale (origina dalla CPU)"
     },
     {
-        "domanda": "What is the UID of the user root?",
+        "domanda": "La dimensione dello spazio di indirizzi (numero di locazioni di memoria indirizzabili) è determinata da:",
         "opzioni": [
+            "Larghezza del bus di dati",
+            "Larghezza del bus indirizzi",
+            "Frequenza di clock",
+            "Velocità di trasferimento"
+        ],
+        "corretta": "Larghezza del bus indirizzi"
+    },
+    {
+        "domanda": "Quale bus è considerato il 'Collo di bottiglia' dell’elaboratore di Von Neumann in base alla sua larghezza?",
+        "opzioni": [
+            "Bus di Controllo",
+            "Bus Indirizzi",
+            "Bus Interno",
+            "Bus Dati"
+        ],
+        "corretta": "Bus Dati"
+    },
+    {
+        "domanda": "Cosa si intende per Temporizzazione Sincrona di un bus?",
+        "opzioni": [
+            "Ogni attività è regolata da segnali di sincronizzazione attivati successivamente",
+            "Il bus non è dotato di un clock",
+            "Il bus è dotato di un clock e ogni attività è pilotata da esso",
+            "Il trasferimento avviene in modo casuale"
+        ],
+        "corretta": "Il bus è dotato di un clock e ogni attività è pilotata da esso"
+    },
+    {
+        "domanda": "Qual è il vantaggio principale della temporizzazione asincrona?",
+        "opzioni": [
+            "Implementazione più semplice",
+            "Possibilità di sfruttare al massimo la velocità di ciascun dispositivo",
+            "Ogni trasferimento avviene in un numero intero di cicli di clock",
+            "Semplice progettazione"
+        ],
+        "corretta": "Possibilità di sfruttare al massimo la velocità di ciascun dispositivo"
+    },
+    {
+        "domanda": "Chi sono i dispositivi 'master' collegati al bus?",
+        "opzioni": [
+            "Quelli in attesa di una richiesta di trasferimento (slave)",
+            "Quelli che hanno il controllo del bus e possono iniziare un trasferimento",
+            "Solo la memoria centrale",
+            "Solo le periferiche I/O"
+        ],
+        "corretta": "Quelli che hanno il controllo del bus e possono iniziare un trasferimento"
+    },
+    {
+        "domanda": "Nell'arbitraggio centralizzato con schema daisy chain, come viene determinata la priorità?",
+        "opzioni": [
+            "In base ad una priorità prestabilita",
+            "In base alla vicinanza fisica all'arbitro",
+            "Mediante un bus di arbitraggio di 4 bit",
+            "Utilizzando diverse linee di Bus Request"
+        ],
+        "corretta": "In base alla vicinanza fisica all'arbitro"
+    },
+    {
+        "domanda": "Quale standard di bus è caratterizzato da ampiezza 32-64 bit e arbitraggio centralizzato in parallelo, usato per periferiche ad elevata velocità (dischi, schede grafiche)?",
+        "opzioni": [
+            "Bus ISA",
+            "Bus USB",
+            "Bus SCSI",
+            "Bus PCI (Peripheral Component Interconnect)"
+        ],
+        "corretta": "Bus PCI (Peripheral Component Interconnect)"
+    },
+    {
+        "domanda": "Cosa caratterizza le Interfacce Parallele (tra modulo I/O e periferica)?",
+        "opzioni": [
+            "Vi è una sola linea di trasmissione",
+            "I bit sono trasferiti uno alla volta",
+            "Più linee connettono il modulo di I/O e la periferica, trasferendo più bit simultaneamente",
+            "Sono sempre più lente delle interfacce seriali"
+        ],
+        "corretta": "Più linee connettono il modulo di I/O e la periferica, trasferendo più bit simultaneamente"
+    },
+    {
+        "domanda": "Qual è la velocità di trasmissione raggiunta dallo standard USB nella versione 2.0?",
+        "opzioni": [
+            "1,5 Mbit/s (versione 1.0)",
+            "480 Mbit/sec",
+            "133 MB/sec",
+            "16,7 MB/sec"
+        ],
+        "corretta": "480 Mbit/sec"
+    },
+    {
+        "domanda": "Le parti costituenti l'Hardware dell’elaboratore a livello logico-digitale si dividono in circuiti di calcolo, celle di memoria e...",
+        "opzioni": [
+            "Firmware",
+            "Periferiche",
+            "Elementi di interconnessione (bus)",
+            "Processore"
+        ],
+        "corretta": "Elementi di interconnessione (bus)"
+    },
+    {
+        "domanda": "Su cosa è basato il progetto dei dispositivi digitali (reti logiche)?",
+        "opzioni": [
+            "Algebra Lineare",
+            "Geometria Euclidea",
+            "Algebra di Boole",
+            "Logica Fuzzy"
+        ],
+        "corretta": "Algebra di Boole"
+    },
+    {
+        "domanda": "Quali sono i tre operatori logici fondamentali definiti dall'Algebra di Boole?",
+        "opzioni": [
+            "NAND, XOR, XNOR",
+            "Somma, Sottrazione, Moltiplicazione",
+            "Congiunzione ($\bullet$), Disgiunzione ($+$), Negazione ($-$, $\neg$)",
+            "FIFO, LRU, LFU"
+        ],
+        "corretta": "Congiunzione ($\bullet$), Disgiunzione ($+$), Negazione ($-$, $\neg$)"
+    },
+    {
+        "domanda": "Una funzione logica di $n$ variabili ha quante possibili combinazioni di valori di input?",
+        "opzioni": [
+            "$n^2$",
+            "$2n$",
+            "$2^n$",
+            "$n+2$"
+        ],
+        "corretta": "$2^n$"
+    },
+    {
+        "domanda": "Nella Tabella di Verità, quando è vera una proposizione ottenuta per Congiunzione (AND, $A \bullet B$)?",
+        "opzioni": [
+            "Quando almeno una proposizione componente è vera",
+            "Se e solo se le proposizioni componenti sono tutte vere",
+            "Quando la proposizione di partenza è falsa",
+            "Quando entrambe sono false"
+        ],
+        "corretta": "Se e solo se le proposizioni componenti sono tutte vere"
+    },
+    {
+        "domanda": "Qual è la priorità degli operatori logici, dal più alto al più basso?",
+        "opzioni": [
+            "Disgiunzione, Congiunzione, Negazione",
+            "Congiunzione, Disgiunzione, Negazione",
+            "Negazione, Congiunzione, Disgiunzione",
+            "Congiunzione, Negazione, Disgiunzione"
+        ],
+        "corretta": "Negazione, Congiunzione, Disgiunzione"
+    },
+    {
+        "domanda": "Quali sono le porte logiche che si dicono 'complete', sufficienti a implementare qualunque funzione booleana?",
+        "opzioni": [
+            "AND, OR, NOT",
+            "NAND e NOR",
+            "XOR e XNOR",
+            "Latch S-R"
+        ],
+        "corretta": "NAND e NOR"
+    },
+    {
+        "domanda": "Quali sono le due diverse espressioni algebriche, dette forme canoniche, che si possono desumere dalla tavola di verità?",
+        "opzioni": [
+            "Forma Semplificata e Forma Complessa",
+            "Somma di prodotti e Prodotto di somme",
+            "Forma Normalizzata e Forma Esponenziale",
+            "Assorbimento e Convoluzione"
+        ],
+        "corretta": "Somma di prodotti e Prodotto di somme"
+    },
+    {
+        "domanda": "Un circuito la cui output dipende unicamente dall’input presentato in quell'istante è detto:",
+        "opzioni": [
+            "Circuito Sequenziale",
+            "Unità Aritmetico-Logica (ALU)",
+            "Circuito Combinatorio (o rete combinatoria)",
+            "Flip-flop"
+        ],
+        "corretta": "Circuito Combinatorio (o rete combinatoria)"
+    },
+    {
+        "domanda": "I Decodificatori sono esempi di circuiti di che tipo e a cosa sono utilizzati soprattutto?",
+        "opzioni": [
+            "Circuiti sequenziali, usati per la moltiplicazione",
+            "Circuiti combinatori, usati per realizzare l'accesso in memoria",
+            "Circuiti sequenziali, usati per le ALU",
+            "Latch S-R, usati per lo shifting"
+        ],
+        "corretta": "Circuiti combinatori, usati per realizzare l'accesso in memoria"
+    },
+    {
+        "domanda": "Qual è l'unità di base dei registri e delle memorie RAM, descritta come un dispositivo bi-stabile in grado di fungere da memoria di 1 bit?",
+        "opzioni": [
+            "Decodificatore",
+            "ALU",
+            "Latch S-R (flip-flop)",
+            "Shifter"
+        ],
+        "corretta": "Latch S-R (flip-flop)"
+    },
+    {
+        "domanda": "Esercizio Logico: Valutare il valore di verità dell'espressione logica $F=A \cdot (\overline{B} \cdot C + B \cdot \overline{C})$ supponendo $A=0, B=1, C=0$.",
+        "opzioni": [
+            "F=0",
+            "F=1",
+            "Indefinito",
+            "0.5"
+        ],
+        "corretta": "F=0"
+    },
+    {
+        "domanda": "Quale delle seguenti è una delle Leggi di De Morgan?",
+        "opzioni": [
+            "$A \bullet 1 = A$ (El. Neutro)",
+            "$A + B = B + A$ (Commutatività)",
+            "$\overline{A} + \overline{B} = \overline{(A \bullet B)}$",
+            "$A \cdot A = A$ (Idempotenza)"
+        ],
+        "corretta": "$\overline{A} + \overline{B} = \overline{(A \bullet B)}$"
+    },
+    {
+        "domanda": "La fase di Fetch (estrazione di una istruzione dalla memoria principale) è la prima del ciclo di istruzione del processore. Quali sono le fasi successive?",
+        "opzioni": [
+            "Decode e I/O",
+            "Decode e Execute",
+            "Write-back e Control",
+            "ALU e CU"
+        ],
+        "corretta": "Decode e Execute"
+    },
+    {
+        "domanda": "Qual è la caratteristica del modello di Von Neumann che implica che le istruzioni vengono eseguite una alla volta?",
+        "opzioni": [
+            "Parallelismo",
+            "Proceduralità",
+            "Sequenzialità",
+            "Modularità"
+        ],
+        "corretta": "Sequenzialità"
+    },
+    {
+        "domanda": "Quali sono i due componenti principali della CPU?",
+        "opzioni": [
+            "Registri e Memoria principale",
+            "ALU (Arithmetic and Logic Unit) e CU (Control Unit)",
+            "MAR e MDR",
+            "Clock e Bus"
+        ],
+        "corretta": "ALU (Arithmetic and Logic Unit) e CU (Control Unit)"
+    },
+    {
+        "domanda": "Qual è la funzione della Unità di Controllo (CU)?",
+        "opzioni": [
+            "Eseguire le operazioni aritmetico-logiche",
+            "Controllare il funzionamento delle varie unità e generare segnali di controllo",
+            "Contenere i dati temporanei",
+            "Leggere i dati dalla memoria centrale"
+        ],
+        "corretta": "Controllare il funzionamento delle varie unità e generare segnali di controllo"
+    },
+    {
+        "domanda": "Cosa contiene il Registro Contatore (PC - Program Counter)?",
+        "opzioni": [
+            "L'istruzione che il processore sta elaborando",
+            "Il dato letto/scritto dalla memoria",
+            "L'indirizzo della prossima istruzione da estrarre ed eseguire",
+            "L'informazione relativa allo stato del processore"
+        ],
+        "corretta": "L'indirizzo della prossima istruzione da estrarre ed eseguire"
+    },
+    {
+        "domanda": "La velocità di un processore è dettata, innanzi tutto, da quale fattore?",
+        "opzioni": [
+            "La capacità della RAM",
+            "La frequenza di clock (o clock rate)",
+            "Il numero di periferiche",
+            "La grandezza del bus dati"
+        ],
+        "corretta": "La frequenza di clock (o clock rate)"
+    },
+    {
+        "domanda": "Cosa rappresenta il periodo di clock ($\tau$)?",
+        "opzioni": [
+            "Il numero di impulsi nell'unità di tempo",
+            "L'inverso della frequenza di clock",
+            "L'intervallo di tempo fra due impulsi consecutivi",
+            "Il tempo necessario per eseguire un'istruzione"
+        ],
+        "corretta": "L'intervallo di tempo fra due impulsi consecutivi"
+    },
+    {
+        "domanda": "Quale indice valuta le prestazioni di un processore in termini di numero medio di cicli di clock per istruzione di un programma?",
+        "opzioni": [
+            "MFLOPS",
+            "MIPS rate",
+            "CPI (Cycle Per Instruction)",
+            "Tempo di esecuzione"
+        ],
+        "corretta": "CPI (Cycle Per Instruction)"
+    },
+    {
+        "domanda": "Quale indice di prestazione è espresso in Milioni di Istruzioni Per Secondo?",
+        "opzioni": [
+            "CPI",
+            "MFLOPS",
+            "MIPS rate",
+            "GHz"
+        ],
+        "corretta": "MIPS rate"
+    },
+    {
+        "domanda": "Qual è il tempo di accesso tipico della memoria centrale (RAM)?",
+        "opzioni": [
+            "Ordine di pochi nsec",
+            "Ordine di $\mu$sec (microsecondi)",
+            "Ordine di msec (millisecondi)",
+            "Ordine di secondi"
+        ],
+        "corretta": "Ordine di $\mu$sec (microsecondi)"
+    },
+    {
+        "domanda": "Quale tecnologia di RAM è usata prevalentemente nelle memorie cache?",
+        "opzioni": [
+            "DRAM (Dynamic RAM)",
+            "Memoria Flash",
+            "SRAM (Static RAM)",
+            "Memoria ROM"
+        ],
+        "corretta": "SRAM (Static RAM)"
+    },
+    {
+        "domanda": "Perché la DRAM è meno costosa e più densa della SRAM?",
+        "opzioni": [
+            "È non volatile",
+            "Le celle di memoria sono più semplici e più piccole",
+            "Ha tempi di accesso più brevi",
+            "Non necessita di refresh"
+        ],
+        "corretta": "Le celle di memoria sono più semplici e più piccole"
+    },
+    {
+        "domanda": "Se l'indirizzo della memoria centrale è un numero di $k$ bit, quante diverse locazioni si possono indirizzare?",
+        "opzioni": [
+            "$k^2$",
+            "$2^k$",
+            "$2^k - 1$",
+            "$k \times 2$"
+        ],
+        "corretta": "$2^k$"
+    },
+    {
+        "domanda": "Se una memoria ha N=1024 locazioni, quanti bit sono necessari per indirizzarle?",
+        "opzioni": [
+            "8 bit",
+            "10 bit",
+            "16 bit",
+            "32 bit"
+        ],
+        "corretta": "10 bit"
+    },
+    {
+        "domanda": "Quale registro del processore memorizza il dato letto o che deve essere scritto nella locazione di memoria?",
+        "opzioni": [
+            "MAR (Memory Address Register)",
+            "IR (Instruction Register)",
+            "PC (Program Counter)",
+            "MDR (Memory Data Register) o MBR"
+        ],
+        "corretta": "MDR (Memory Data Register) o MBR"
+    },
+    {
+        "domanda": "Qual è il principio fondamentale di un Sistema di Numerazione Posizionale?",
+        "opzioni": [
+            "Il valore di un simbolo è fisso",
+            "Si basa sui simboli romani",
+            "Il valore rappresentato da un simbolo dipende dalla posizione del simbolo nella stringa",
+            "È scarsamente leggibile"
+        ],
+        "corretta": "Il valore rappresentato da un simbolo dipende dalla posizione del simbolo nella stringa"
+    },
+    {
+        "domanda": "In un sistema di numerazione posizionale, come è chiamato il simbolo più a sinistra?",
+        "opzioni": [
+            "Cifra meno significativa",
+            "Cifra radice",
+            "Cifra più significativa",
+            "Esponente"
+        ],
+        "corretta": "Cifra più significativa"
+    },
+    {
+        "domanda": "Qual è la base $b$ e l'insieme dei simboli utilizzati nel sistema di numerazione esadecimale?",
+        "opzioni": [
+            "$b=8$, simboli 0-7",
+            "$b=10$, simboli 0-9",
+            "$b=16$, simboli 0-9, A-F",
+            "$b=2$, simboli 0 e 1"
+        ],
+        "corretta": "$b=16$, simboli 0-9, A-F"
+    },
+    {
+        "domanda": "Per rappresentare un numero $x > 0$ in binario, sono necessarie $\lfloor \log_2(x) \rfloor+1$ cifre binarie. Questo concetto è legato a quale caratteristica dei sistemi posizionali?",
+        "opzioni": [
+            "Non Operatività",
+            "Non Posizionalità",
+            "Compattezza (andamento logaritmico)",
+            "Teorema di Rappresentazione"
+        ],
+        "corretta": "Compattezza (andamento logaritmico)"
+    },
+    {
+        "domanda": "Secondo il Teorema di Rappresentazione, per quale tipo di numeri la rappresentabilità non è garantita in un sistema posizionale?",
+        "opzioni": [
+            "Numeri naturali (interi positivi)",
+            "Numeri negativi",
+            "Numeri più grandi di 999",
+            "Numeri non interi"
+        ],
+        "corretta": "Numeri non interi"
+    },
+    {
+        "domanda": "Esercizio: Convertire la stringa binaria (10010)$_2$ nel sistema decimale.",
+        "opzioni": [
+            "18",
+            "20",
+            "16",
+            "14"
+        ],
+        "corretta": "18"
+    },
+    {
+        "domanda": "Esercizio: Convertire la stringa ottale (417)$_8$ nel sistema decimale.",
+        "opzioni": [
+            "317",
+            "271",
+            "263",
+            "1024"
+        ],
+        "corretta": "271"
+    },
+    {
+        "domanda": "Esercizio: Convertire la stringa esadecimale (FA3)$_{16}$ nel sistema decimale.",
+        "opzioni": [
+            "3907",
+            "4003",
+            "3843",
+            "4096"
+        ],
+        "corretta": "4003"
+    },
+    {
+        "domanda": "Esercizio: Convertire il numero decimale (124)$_{10}$ in binario.",
+        "opzioni": [
+            "(1111100)$_2$",
+            "(1001100)$_2$",
+            "(1111101)$_2$",
+            "(1111000)$_2$"
+        ],
+        "corretta": "(1111100)$_2$"
+    },
+    {
+        "domanda": "Esercizio: Convertire la parte frazionaria del numero decimale (0.625)$_{10}$ in binario.",
+        "opzioni": [
+            "(0.101)$_2$",
+            "(0.011)$_2$",
+            "(0.110)$_2$",
+            "(0.111)$_2$"
+        ],
+        "corretta": "(0.101)$_2$"
+    },
+    {
+        "domanda": "Esercizio: Convertire il numero binario (111101.011001)$_2$ in base 16.",
+        "opzioni": [
+            "(3D.69)$_{16}$",
+            "(3D.64)$_{16}$",
+            "(3F.69)$_{16}$",
+            "(3F.64)$_{16}$"
+        ],
+        "corretta": "(3D.64)$_{16}$"
+    },
+    {
+        "domanda": "Esercizio: Convertire (AB81)$_{16}$ in base 2.",
+        "opzioni": [
+            "(1010101110000001)$_2$",
+            "(1010101110000000)$_2$",
+            "(1011101010000001)$_2$",
+            "(1010101110000100)$_2$"
+        ],
+        "corretta": "(1010101110000001)$_2$"
+    },
+    {
+        "domanda": "Esercizio: Eseguire la somma binaria $1101 + 0011$.",
+        "opzioni": [
+            "10000",
+            "1111",
+            "10001",
+            "10010"
+        ],
+        "corretta": "10000"
+    },
+    {
+        "domanda": "L'aritmetica finita dell'elaboratore è limitata e non gode delle proprietà dell'aritmetica reale, portando a fenomeni come:",
+        "opzioni": [
+            "Proprietà di chiusura",
+            "Underflow (risultato troppo piccolo)",
+            "Associatività",
+            "Distributività"
+        ],
+        "corretta": "Underflow (risultato troppo piccolo)"
+    },
+    {
+        "domanda": "Qual è l'intervallo di rappresentabilità dei numeri naturali (interi senza segno) in aritmetica binaria finita con $n$ bit?",
+        "opzioni": [
+            "$[0, 2^n]$",
+            "$[0, 2^{n-1}]$",
+            "$[0, 2^n-1]$",
+            "$[-2^{n-1}, 2^{n-1}-1]$"
+        ],
+        "corretta": "$[0, 2^n-1]$"
+    },
+    {
+        "domanda": "Nella rappresentazione in Modulo e Segno (MS) a $n$ bit, cosa indica il bit più significativo?",
+        "opzioni": [
+            "Il valore assoluto",
+            "L'esponente",
+            "Il segno (0 per +, 1 per -)",
+            "L'eccesso"
+        ],
+        "corretta": "Il segno (0 per +, 1 per -)"
+    },
+    {
+        "domanda": "Qual è l'intervallo di rappresentabilità in Modulo e Segno (MS) a $n$ bit?",
+        "opzioni": [
+            "$[-(2^{n-1} – 1), 2^{n-1} – 1]$",
+            "$[-(2^{n-1}), 2^{n-1} – 1]$",
+            "$[0, 2^n – 1]$",
+            "$[-2^n, 2^n]$"
+        ],
+        "corretta": "$[-(2^{n-1} – 1), 2^{n-1} – 1]$"
+    },
+    {
+        "domanda": "Qual è uno svantaggio cruciale della rappresentazione in Modulo e Segno?",
+        "opzioni": [
+            "Difficile comprensione",
+            "Unica rappresentazione dello zero",
+            "Ambiguità nella rappresentazione dello zero (+0 e -0)",
+            "Facile implementazione di somma e sottrazione"
+        ],
+        "corretta": "Ambiguità nella rappresentazione dello zero (+0 e -0)"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Modulo e Segno (4 bit) del numero -6?",
+        "opzioni": [
+            "1110",
+            "0110",
+            "1001",
+            "1010"
+        ],
+        "corretta": "1110"
+    },
+    {
+        "domanda": "Nella rappresentazione in Complemento a 1 (C1), i valori negativi sono espressi tramite la differenza del valore positivo rispetto a quale stringa?",
+        "opzioni": [
+            "La stringa $10\dots0$ (n+1 bit)",
+            "La stringa $11\dots1$ (n bit)",
+            "La stringa $00\dots0$",
+            "Invertendo solo il bit di segno"
+        ],
+        "corretta": "La stringa $11\dots1$ (n bit)"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 1 (4 bit) del numero -3?",
+        "opzioni": [
+            "0011",
+            "1100",
+            "1101",
+            "1111"
+        ],
+        "corretta": "1100"
+    },
+    {
+        "domanda": "Esercizio: Eseguire l'operazione $4 - 2$ usando C1 a 4 bit. (+4 è 0100, -2 è 1101).",
+        "opzioni": [
+            "10000 (Riporto sommato)",
+            "0010 (Riporto sommato al risultato: 0001 + 1)",
+            "1110",
+            "0001"
+        ],
+        "corretta": "0010 (Riporto sommato al risultato: 0001 + 1)"
+    },
+    {
+        "domanda": "Come si può ottenere la rappresentazione di un numero negativo in Complemento a 2 (C2) a partire dalla rappresentazione in Complemento a 1?",
+        "opzioni": [
+            "Si inverte il bit di segno",
+            "Si sottrae 1 al C1",
+            "Si somma 1 al C1",
+            "Si inverte il modulo"
+        ],
+        "corretta": "Si somma 1 al C1"
+    },
+    {
+        "domanda": "Qual è l'intervallo di rappresentabilità in Complemento a 2 a $n$ bit?",
+        "opzioni": [
+            "$[-(2^{n-1} – 1), 2^{n-1} – 1]$",
+            "$[-(2^{n-1}), 2^{n-1} – 1]$",
+            "$[0, 2^n – 1]$",
+            "$[-(2^{n-1}), 2^{n-1}]$"
+        ],
+        "corretta": "$[-(2^{n-1}), 2^{n-1} – 1]$"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 2 (4 bit) del numero -7?",
+        "opzioni": [
+            "1000",
+            "1001",
+            "1111",
+            "1001 (0111 -> 1000 -> 1001)"
+        ],
+        "corretta": "1001 (0111 -> 1000 -> 1001)"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 2 (4 bit) del numero -8?",
+        "opzioni": [
+            "1111",
+            "1000",
+            "0111",
+            "1001"
+        ],
+        "corretta": "1000"
+    },
+    {
+        "domanda": "Quando si verifica overflow nell'addizione in C1 o C2?",
+        "opzioni": [
+            "Quando gli addendi hanno segno opposto",
+            "Quando il risultato è zero",
+            "Se gli addendi hanno lo stesso segno e il risultato ha segno opposto",
+            "Quando il risultato è troppo piccolo (underflow)"
+        ],
+        "corretta": "Se gli addendi hanno lo stesso segno e il risultato ha segno opposto"
+    },
+    {
+        "domanda": "Esercizio: Nella sottrazione in C2, $4 - 2$ (+4 è 0100, -2 è 1110). Qual è il risultato e come si gestisce il riporto?",
+        "opzioni": [
+            "10010; il riporto viene sommato",
+            "0010; il riporto (1) viene trascurato",
+            "0000; non c'è riporto",
+            "1110; il riporto viene sommato"
+        ],
+        "corretta": "0010; il riporto (1) viene trascurato"
+    },
+    {
+        "domanda": "La rappresentazione con eccesso trasferisce l'intervallo di rappresentabilità dei numeri relativi nel dominio dei numeri:",
+        "opzioni": [
+            "Negativi",
+            "Frazionari",
+            "Positivi",
+            "Reali"
+        ],
+        "corretta": "Positivi"
+    },
+    {
+        "domanda": "Esercizio: Se si usa la Rappresentazione con Eccesso a 3 bit con Eccesso = 4, quale numero è rappresentato dalla stringa 101?",
+        "opzioni": [
+            "5",
             "1",
-            "-1",
+            "-4",
+            "3"
+        ],
+        "corretta": "1 (5 - Eccesso = 5 - 4 = 1)"
+    },
+    {
+        "domanda": "Quali sono le due forme di rappresentazione dei numeri reali in aritmetica finita binaria?",
+        "opzioni": [
+            "Virgola intera e Virgola frazionaria",
+            "Virgola fissa e Virgola mobile",
+            "C1 e C2",
+            "Normalizzata ed Estesa"
+        ],
+        "corretta": "Virgola fissa e Virgola mobile"
+    },
+    {
+        "domanda": "Nella rappresentazione in Virgola Fissa (fixed-point), qual è lo svantaggio principale dovuto al passo costante?",
+        "opzioni": [
+            "L'intervallo di rappresentabilità è infinito",
+            "Incapacità di rappresentare piccoli e grandi numeri in poco spazio (troppa rigidità)",
+            "Non si può usare il complemento a 2",
+            "La precisione è illimitata"
+        ],
+        "corretta": "Incapacità di rappresentare piccoli e grandi numeri in poco spazio (troppa rigidità)"
+    },
+    {
+        "domanda": "Se nella Virgola Fissa si dedicano più cifre alla parte frazionaria (spostando la virgola a sinistra), cosa succede?",
+        "opzioni": [
+            "Il passo diventa più grande",
+            "Il massimo valore assoluto rappresentabile diventa più grande",
+            "Il passo diventa più piccolo",
+            "L'intervallo rimane costante"
+        ],
+        "corretta": "Il passo diventa più piccolo"
+    },
+    {
+        "domanda": "La rappresentazione in virgola mobile (floating-point) adotta quale notazione?",
+        "opzioni": [
+            "Notazione posizionale",
+            "Notazione scientifica (o esponenziale)",
+            "Notazione in C2",
+            "Notazione in virgola fissa"
+        ],
+        "corretta": "Notazione scientifica (o esponenziale)"
+    },
+    {
+        "domanda": "Nella notazione scientifica $x = M \times B^E$, a cosa è legata la precisione della rappresentazione?",
+        "opzioni": [
+            "Al numero di cifre che compongono l'esponente",
+            "Al numero di cifre che compongono la mantissa",
+            "Alla base",
+            "Al segno"
+        ],
+        "corretta": "Al numero di cifre che compongono la mantissa"
+    },
+    {
+        "domanda": "Qual è la 'forma standard' (normalizzata) di un numero in virgola mobile binaria nello standard IEEE 754?",
+        "opzioni": [
+            "$0.$XXXXX...",
+            "$\pm 10.$XXXXX...",
+            "$1.$XXXXX... (con un 1 implicito)",
+            "XXXXX... $\times 2^E$"
+        ],
+        "corretta": "$1.$XXXXX... (con un 1 implicito)"
+    },
+    {
+        "domanda": "Nello standard IEEE 754 a singola precisione (32 bit), quanti bit sono destinati alla Mantissa (parte frazionaria)?",
+        "opzioni": [
+            "8 bit",
+            "1 bit (segno)",
+            "52 bit",
+            "23 bit"
+        ],
+        "corretta": "23 bit"
+    },
+    {
+        "domanda": "Nello standard IEEE 754 a singola precisione, qual è il valore dell'eccesso utilizzato per l'esponente (8 bit)?",
+        "opzioni": [
             "255",
-            "65536",
+            "128",
+            "127 ($2^{8-1}-1$)",
+            "23"
+        ],
+        "corretta": "127 ($2^{8-1}-1$)"
+    },
+    {
+        "domanda": "Esercizio: Convertire il numero decimale (13.25)$_{10}$ in binario normalizzato (forma $1.XXX \times 2^n$).",
+        "opzioni": [
+            "$1.10101 \times 2^3$",
+            "$1.325 \times 2^1$",
+            "$1.1101 \times 2^3$",
+            "$0.110101 \times 2^4$"
+        ],
+        "corretta": "$1.10101 \times 2^3$"
+    },
+    {
+        "domanda": "Esercizio: Nel caso di (13.25)$_{10}$ convertito ($+1.10101 \times 2^3$) in singola precisione, qual è l'esponente con eccesso (ESP+eccesso)?",
+        "opzioni": [
+            "(130)$_{10}$",
+            "(127)$_{10}$",
+            "(3)$_{10}$",
+            "(124)$_{10}$"
+        ],
+        "corretta": "(130)$_{10}$ ($127 + 3 = 130$)"
+    },
+    {
+        "domanda": "Cosa indica la rappresentazione in IEEE 754 quando tutti i bit dell'esponente valgono 1 e tutti i bit della mantissa valgono 0?",
+        "opzioni": [
+            "Zero",
+            "NaN (Not a Number)",
+            "Overflow",
+            "Infinito ($\infty$)"
+        ],
+        "corretta": "Infinito ($\infty$)"
+    },
+    {
+        "domanda": "Cosa indica la rappresentazione in IEEE 754 quando tutti i bit dell'esponente valgono 0 e tutti i bit della mantissa valgono 0?",
+        "opzioni": [
+            "Infinito",
+            "NaN",
+            "Denormalizzato",
+            "Zero (0)"
+        ],
+        "corretta": "Zero (0)"
+    },
+    {
+        "domanda": "Quando si verifica Underflow nella rappresentazione floating point?",
+        "opzioni": [
+            "Quando l'esponente diviene troppo grande (overflow)",
+            "Quando la mantissa è zero",
+            "Quando l'esponente diviene troppo piccolo (non più rappresentabile)",
+            "Quando si usa la doppia precisione"
+        ],
+        "corretta": "Quando l'esponente diviene troppo piccolo (non più rappresentabile)"
+    },
+    {
+        "domanda": "Qual è il più piccolo esponente utilizzabile (prima che si passi a denormalizzati o zero) in singola precisione IEEE 754?",
+        "opzioni": [
+            "-127",
+            "-126",
+            "127",
             "0"
         ],
-        "corretta": "E"
+        "corretta": "-126"
     },
     {
-        "domanda": "Which permissions are set on a regular file once the permissions have been modified with chmod 654 file.txt?",
+        "domanda": "Quale delle seguenti è una caratteristica della Macchina Reale (livello hardware)?",
         "opzioni": [
-            "drw-r-xr-",
-            "d\u2015wxr-x-",
-            "Cwxr-x--x",
-            "Crwxrw---x",
-            "-rw-r-xr-"
+            "È la macchina più flessibile",
+            "È la macchina più efficiente ma meno flessibile",
+            "Comprende il linguaggio di programmazione",
+            "È il livello più astratto"
         ],
-        "corretta": "E"
+        "corretta": "È la macchina più efficiente ma meno flessibile"
     },
     {
-        "domanda": "What is true about the owner of a file?",
+        "domanda": "Quale caratteristica logica di un elaboratore (es. il repertorio delle istruzioni a livello macchina) non cambia con la tecnologia?",
         "opzioni": [
-            "Each file is owned by exactly one user and one group.",
-            "The owner of a file always has full permissions when accessing the file.",
-            "The user owning a file must be a member of the file\u2019s group.",
-            "When a user is deleted, all files owned by the user disappear.",
-            "The owner of a file cannot be changed once it is assigned to an owner."
+            "Organizzazione",
+            "Implementazione",
+            "ALU",
+            "Architettura"
         ],
-        "corretta": "A"
+        "corretta": "Architettura"
     },
     {
-        "domanda": "Which of the following permissions are set on the /tmp/ directory?",
+        "domanda": "Un sistema digitale ragiona utilizzando informazioni espresse come:",
         "opzioni": [
-            "rwxrwxrwt",
-            "------rwX",
-            "rwSrw-rw-",
-            "rwxrwS--",
-            "r-xr-X--t"
+            "Grandezze che variano con continuità (analogiche)",
+            "Sequenze di 1 e 0 (bit)",
+            "Rappresentazione simbolica",
+            "Sequenze numeriche continue"
         ],
-        "corretta": "A"
+        "corretta": "Sequenze di 1 e 0 (bit)"
     },
     {
-        "domanda": "Which command adds the new user tux and creates the user\u2019s home directory with default configuration files?",
+        "domanda": "La conversione da Analogico a Digitale è chiamata:",
         "opzioni": [
-            "defaultuser tux",
-            "useradd Cm tux",
-            "usercreate tux",
-            "useradd Co default tux",
-            "passwd Ca tux"
+            "Conversione D/A",
+            "Conversione A/D",
+            "Elaborazione",
+            "Fetch"
         ],
-        "corretta": "B"
+        "corretta": "Conversione A/D"
     },
     {
-        "domanda": "What information is stored in /etc/passwd? (Choose three.)",
+        "domanda": "Qual è il tempo richiesto dal processore per eseguire un programma $P$ secondo i parametri $N$ (numero istruzioni), $CPI$ e $\tau$ (durata ciclo di clock)?",
         "opzioni": [
-            "The user\u2019s storage space limit",
-            "The numerical user ID",
-            "The username",
-            "The encrypted password",
-            "The users default shell"
+            "$T_{empo} = CPI / (N \times \tau)$",
+            "$T_{empo} = \tau \times CPI \times N$",
+            "$T_{empo} = CPI \times N$",
+            "$T_{empo} = N / (CPI \times \tau)$"
         ],
-        "corretta": "B, C and E"
+        "corretta": "$T_{empo} = \tau \times CPI \times N$"
     },
     {
-        "domanda": "Which of the following tar options handle compression? (Choose two.)",
+        "domanda": "I registri sono realizzati fisicamente mediante circuiti di tipo:",
         "opzioni": [
-            "-bz",
-            "-z",
-            "-g",
-            "-j",
-            "-z2"
+            "DRAM",
+            "Condensatori",
+            "Flip-flop (usati anche nelle SRAM)",
+            "Transistor in parallelo"
         ],
-        "corretta": "B and D"
+        "corretta": "Flip-flop (usati anche nelle SRAM)"
     },
     {
-        "domanda": "What keyword is used in a shell script to begin a loop?",
-        "opzioni": [],
-        "corretta": "for"
-    },
-    {
-        "domanda": "Which of the following commands creates an archive file work.tar from the contents of the directory ./work/?",
+        "domanda": "Nel Bus di Sistema, quali linee sono utilizzate per specificare informazioni come il tipo di trasferimento (lettura o scrittura)?",
         "opzioni": [
-            "tar --new work.tar ./work/",
-            "tar Ccf work.tar ./work/",
-            "tar Ccreate work.tgz Ccontent ./work/",
-            "tar work.tar < ./work/",
-            "tar work > work.tar"
+            "Linee Dati",
+            "Linee Indirizzo",
+            "Linee di Controllo",
+            "Bus Esterno"
         ],
-        "corretta": "B"
+        "corretta": "Linee di Controllo"
     },
     {
-        "domanda": "Which of the following keys can be pressed to exit less?",
+        "domanda": "Qual è il vantaggio dello schema di arbitraggio centralizzato parallelo rispetto al daisy chain?",
         "opzioni": [
-            "l",
-            "x",
-            "e",
-            "q",
-            "!"
+            "Richiede pochi segnali di controllo",
+            "Non permette di modificare le priorità",
+            "È più veloce e permette di modificare le priorità",
+            "È più lento con un elevato numero di dispositivi"
         ],
-        "corretta": "D"
+        "corretta": "È più veloce e permette di modificare le priorità"
     },
     {
-        "domanda": "The current directory contains the file -rwxr-xr-x 1 root root 859688 Feb 7 08:15 test.sh. How can this script be executed? (Choose two.)",
-        "opzioni": [],
-        "corretta": "./test.sh and bash test.sh"
-    },
-    {
-        "domanda": "Which of the following commands sorts the output of the command export-logs?",
+        "domanda": "Quale delle seguenti interfacce è un esempio di interfaccia seriale?",
         "opzioni": [
-            "export-logs < sort",
-            "export-logs > sort",
-            "export-logs & sort",
-            "export-logs | sort",
-            "export-logs <> sort"
+            "ISA",
+            "PCI",
+            "SCSI",
+            "USB (Universal Serial Bus)"
         ],
-        "corretta": "D"
+        "corretta": "USB (Universal Serial Bus)"
     },
     {
-        "domanda": "Which of the following commands will search for the file foo.txt under the directory /home?",
+        "domanda": "Qual è la proprietà logica di Assorbimento per l'operatore OR?",
         "opzioni": [
-            "search /home Cfile foo.txt",
-            "search /home foo. txt",
-            "find /home C file foo.txt",
-            "find /home Cname foo.txt",
-            "find /home foo.txt"
+            "$A \bullet 0 = 0$",
+            "$A + 1 = 1$",
+            "$A + A = A$",
+            "$\overline{A} \bullet \overline{B} = \overline{(A+B)}$"
         ],
-        "corretta": "D"
+        "corretta": "$A + 1 = 1$"
     },
     {
-        "domanda": "The current directory contains the file -rw-r\u2015r\u2015 1 root exec 24551 Apr 2 12:36 test.sh. The file cannot be executed with ./test.sh. What should be done?",
-        "opzioni": [],
-        "corretta": "The execute bit should be set in the file\u2019s permissions"
-    },
-    {
-        "domanda": "What is a Linux distribution?",
+        "domanda": "Come viene realizzata la Porta Logica NAND usando i transistor?",
         "opzioni": [
-            "The Linux file system as seen from the root account after mounting all file systems.",
-            "A bundling of the Linux kernel, system utilities and other software.",
-            "The set of rules which governs the distribution of Linux kernel source code.",
-            "An operating system based on Linux but incompatible to the regular Linux kernel.",
-            "A set of changes to Linux which enable Linux to run on another processor architecture."
+            "Transistor in serie",
+            "Transistor in parallelo",
+            "Un solo transistor",
+            "Con un flip-flop"
         ],
-        "corretta": "B"
+        "corretta": "Transistor in serie"
+    },
+    {
+        "domanda": "Esercizio Logico: Qual è il risultato dell'espressione $\overline{A} \bullet \overline{B}$ se A=0 e B=0?",
+        "opzioni": [
+            "0",
+            "1",
+            "Indefinito",
+            "Dipende dalla disgiunzione"
+        ],
+        "corretta": "1"
+    },
+    {
+        "domanda": "Qual è il valore decimale del numero binario (0111)$_2$ in rappresentazione Complemento a 2 a 4 bit?",
+        "opzioni": [
+            "-7",
+            "7",
+            "-8",
+            "0"
+        ],
+        "corretta": "7"
+    },
+    {
+        "domanda": "Esercizio: Qual è il valore decimale del numero binario (1000)$_2$ in rappresentazione Complemento a 2 a 4 bit?",
+        "opzioni": [
+            "-8",
+            "8",
+            "-7",
+            "0"
+        ],
+        "corretta": "-8"
+    },
+    {
+        "domanda": "Esercizio: Convertire 50 (base 10) in base 8.",
+        "opzioni": [
+            "(62)$_8$",
+            "(100)$_8$",
+            "(50)$_8$",
+            "(32)$_8$"
+        ],
+        "corretta": "(62)$_8$"
+    },
+    {
+        "domanda": "Esercizio: Convertire 42 (base 10) in base 16.",
+        "opzioni": [
+            "(42)$_{16}$",
+            "(2A)$_{16}$",
+            "(2B)$_{16}$",
+            "(101010)$_{16}$"
+        ],
+        "corretta": "(2A)$_{16}$"
+    },
+    {
+        "domanda": "Nella rappresentazione in virgola mobile, se si aumenta il numero di cifre dell'esponente, cosa aumenta?",
+        "opzioni": [
+            "La densità (precisione)",
+            "La base della potenza",
+            "La dimensione delle aree (intervallo di rappresentabilità)",
+            "La mantissa"
+        ],
+        "corretta": "La dimensione delle aree (intervallo di rappresentabilità)"
+    },
+    {
+        "domanda": "Nello standard IEEE 754 a doppia precisione (64 bit), quanti bit sono utilizzati per l'esponente?",
+        "opzioni": [
+            "8 bit",
+            "52 bit",
+            "11 bit",
+            "64 bit"
+        ],
+        "corretta": "11 bit"
+    },
+    {
+        "domanda": "Esercizio: Dato (700 + 400) – 300, se lavorassimo nell'aritmetica finita degli interi positivi rappresentabili con 3 cifre decimali, si avrebbe un problema di:",
+        "opzioni": [
+            "Underflow",
+            "Overflow (1100 > 999)",
+            "Precisione",
+            "Nessun problema"
+        ],
+        "corretta": "Overflow (1100 > 999)"
+    },
+    {
+        "domanda": "L'insieme delle informazioni contenute nei vari registri (PC, IR, etc.) costituisce:",
+        "opzioni": [
+            "Il contenuto della memoria centrale",
+            "Lo stato del processore",
+            "La ALU",
+            "Il Bus Dati"
+        ],
+        "corretta": "Lo stato del processore"
+    },
+    {
+        "domanda": "La memoria che contiene dati e istruzioni che sono oggetto di elaborazione da parte del processore è la:",
+        "opzioni": [
+            "Memoria Cache",
+            "Memoria di Massa",
+            "Memoria Principale (RAM)",
+            "Memoria ROM"
+        ],
+        "corretta": "Memoria Principale (RAM)"
+    },
+    {
+        "domanda": "Qual è la lunghezza della traccia di un CD che si avvolge a spirale partendo dal foro centrale?",
+        "opzioni": [
+            "1.6 µm",
+            "120 mm",
+            "5.6 km",
+            "650 MB"
+        ],
+        "corretta": "5.6 km"
+    },
+    {
+        "domanda": "Qual è il vantaggio della rappresentazione in C2 rispetto a C1?",
+        "opzioni": [
+            "La sottrazione non è trattata come somma",
+            "Il confronto tra due numeri è immediato",
+            "Esiste un'unica rappresentazione dello zero",
+            "L'intervallo è simmetrico"
+        ],
+        "corretta": "Esiste un'unica rappresentazione dello zero"
+    },
+    {
+        "domanda": "Esercizio: Quale numero è rappresentato dalla stringa 1110 in Complemento a 1 (4 bit)?",
+        "opzioni": [
+            "+1",
+            "-1",
+            "-7",
+            "+7"
+        ],
+        "corretta": "-1"
+    },
+    {
+        "domanda": "Il processo di scrittura in una locazione di memoria centrale (write) è eseguito da:",
+        "opzioni": [
+            "L'ALU",
+            "Il Registro MAR",
+            "Il Registro MDR",
+            "L'Unità di Controllo del processore"
+        ],
+        "corretta": "L'Unità di Controllo del processore"
+    },
+    {
+        "domanda": "Quale tipo di memoria conserva le informazioni solo in presenza di alimentazione elettrica?",
+        "opzioni": [
+            "Permanente",
+            "ROM",
+            "Non volatile",
+            "Volatile (es. RAM, Registri)"
+        ],
+        "corretta": "Volatile (es. RAM, Registri)"
+    },
+    {
+        "domanda": "L'IEEE 754 singola precisione è composto da:",
+        "opzioni": [
+            "1 bit segno, 11 bit esponente, 52 bit mantissa",
+            "1 bit segno, 8 bit esponente, 23 bit mantissa",
+            "1 bit segno, 80 bit totali",
+            "32 bit solo per la mantissa"
+        ],
+        "corretta": "1 bit segno, 8 bit esponente, 23 bit mantissa"
+    },
+    {
+        "domanda": "Qual è il più piccolo numero positivo rappresentabile nello standard IEEE 754 in singola precisione (denormalizzato)?",
+        "opzioni": [
+            "$2^{-149}$",
+            "$2^{-126}$",
+            "$2^{128}$",
+            "0.125"
+        ],
+        "corretta": "$2^{-149}$"
+    },
+    {
+        "domanda": "Esercizio: Dato che 1 Gigabyte (GB) = $2^{30}$ byte e 1 Terabyte (TB) = $2^{40}$ byte. Quanti DVD da 4 GB è possibile memorizzare in un Hard Disk da 1 TB?",
+        "opzioni": [
+            "10",
+            "$2^{18}$",
+            "1024",
+            "256"
+        ],
+        "corretta": "256 ($1 TB / 4 GB = 2^{40} / (4 \times 2^{30}) = 2^{40} / (2^2 \times 2^{30}) = 2^{40} / 2^{32} = 2^8 = 256$)"
+    },
+    {
+        "domanda": "Esercizio: In quale rappresentazione a 4 bit la stringa 1000 è il massimo numero negativo e l'unico numero negativo rappresentabile con quel modulo?",
+        "opzioni": [
+            "Modulo e Segno",
+            "Complemento a 1",
+            "Complemento a 2",
+            "Eccesso 8"
+        ],
+        "corretta": "Complemento a 2"
+    },
+    {
+        "domanda": "La stessa struttura fisica (HW) è in grado di realizzare compiti diversi utilizzando programmi (SW) diversi. Questa è la caratteristica principale di:",
+        "opzioni": [
+            "Firmware",
+            "Macchina virtuale",
+            "Elaboratore",
+            "Algoritmo"
+        ],
+        "corretta": "Elaboratore"
+    },
+    {
+        "domanda": "L'architettura di un elaboratore si riferisce a caratteristiche logiche visibili al programmatore. Quale affermazione è corretta sull'Architettura?",
+        "opzioni": [
+            "Cambia con la tecnologia",
+            "Caratterizza una famiglia di elaboratori (es. Intel x86)",
+            "Fa riferimento all'implementazione delle unità operative",
+            "Definisce il numero di circuiti utilizzati"
+        ],
+        "corretta": "Caratterizza una famiglia di elaboratori (es. Intel x86)"
+    },
+    {
+        "domanda": "Cosa si intende per Rappresentazione Numerica?",
+        "opzioni": [
+            "Un livello alto, vicino all'uomo",
+            "Un livello simbolico",
+            "Un livello basso, vicino ai meccanismi dell'elaboratore",
+            "Un insieme di dati in formato testuale"
+        ],
+        "corretta": "Un livello basso, vicino ai meccanismi dell'elaboratore"
+    },
+    {
+        "domanda": "L'intervallo di tempo fra due impulsi consecutivi del clock del processore è anche chiamato:",
+        "opzioni": [
+            "Frequenza di clock",
+            "Ciclo di clock",
+            "MIPS rate",
+            "CPI"
+        ],
+        "corretta": "Ciclo di clock"
+    },
+    {
+        "domanda": "Qual è l'indice di prestazione in virgola mobile espresso in milioni di istruzioni in virgola mobile al secondo?",
+        "opzioni": [
+            "CPI",
+            "MIPS",
+            "MFLOPS",
+            "Benchmark"
+        ],
+        "corretta": "MFLOPS"
+    },
+    {
+        "domanda": "I registri hanno un tempo di accesso dell'ordine di pochi nsec. Questo è dovuto alla loro localizzazione...",
+        "opzioni": [
+            "All'esterno del processore",
+            "All'interno della CPU",
+            "Sulla scheda madre",
+            "Nella memoria centrale"
+        ],
+        "corretta": "All'interno della CPU"
+    },
+    {
+        "domanda": "Nell'organizzazione di un bus, le periferiche di I/O sono collegate al bus attraverso un dispositivo chiamato Controller (o interfaccia). Questo controller contiene:",
+        "opzioni": [
+            "Solo il driver",
+            "Solo la logica di arbitraggio",
+            "Registri di dati (buffer) e Registro di stato",
+            "Solo il clock"
+        ],
+        "corretta": "Registri di dati (buffer) e Registro di stato"
+    },
+    {
+        "domanda": "Qual è il vantaggio strutturale nell'implementare una funzione logica complessa, come $AB+AC$, riscritta nella forma $A(B+C)$?",
+        "opzioni": [
+            "Richiede più porte logiche",
+            "Aumenta la complessità strutturale",
+            "Richiede un minor numero di porte",
+            "Sfrutta l'idempotenza"
+        ],
+        "corretta": "Richiede un minor numero di porte"
+    },
+    {
+        "domanda": "Esercizio: Scrivere la tavola di verità per l’espressione logica $\overline{(\overline{A} \cdot \overline{B})}$ equivale a quale operatore (Legge di De Morgan)?",
+        "opzioni": [
+            "AND ($A \cdot B$)",
+            "OR ($A + B$)",
+            "NOT ($\overline{A}$)",
+            "XOR"
+        ],
+        "corretta": "OR ($A + B$) ($\overline{\overline{A} \cdot \overline{B}} = A + B$)"
+    },
+    {
+        "domanda": "Nel processo di conversione di base di un numero intero $x$ nella base $b$, la procedura richiede che la stringa finale sia:",
+        "opzioni": [
+            "Invertita",
+            "Lasciata come ottenuta",
+            "Sommata",
+            "Trascurata"
+        ],
+        "corretta": "Invertita"
+    },
+    {
+        "domanda": "Quando si parla di numeri denormalizzati nello standard IEEE 754?",
+        "opzioni": [
+            "Quando l'esponente è al massimo (overflow)",
+            "Quando l'esponente è al minimo (tutti 0) e la mantissa è diversa da zero",
+            "Quando si verifica NaN",
+            "Quando si usa la forma in virgola fissa"
+        ],
+        "corretta": "Quando l'esponente è al minimo (tutti 0) e la mantissa è diversa da zero"
+    },
+    {
+        "domanda": "La principale grandezza fisica analogica utilizzata nell'elaboratore per la rappresentazione binaria è:",
+        "opzioni": [
+            "L'intensità di un suono",
+            "L'andamento del tempo",
+            "La tensione elettrica",
+            "Il campo magnetico"
+        ],
+        "corretta": "La tensione elettrica"
+    },
+    {
+        "domanda": "La traduzione di una istruzione da un linguaggio di alto livello (C, Java) al linguaggio macchina è di tipo:",
+        "opzioni": [
+            "1 a 1",
+            "Molti a molti",
+            "1 a molti",
+            "Non necessaria"
+        ],
+        "corretta": "1 a molti"
+    },
+    {
+        "domanda": "Per misurare le prestazioni di un processore in modo affidabile, si usa un programma specifico di test chiamato:",
+        "opzioni": [
+            "MIPS rate",
+            "MFLOPS",
+            "CPI",
+            "Benchmark"
+        ],
+        "corretta": "Benchmark"
+    },
+    {
+        "domanda": "In un disco magnetico, il cilindro è composto da:",
+        "opzioni": [
+            "Tutti i settori della stessa traccia",
+            "Tutte le tracce adiacenti",
+            "Tutte le tracce con lo stesso raggio sui piatti impilati",
+            "Un singolo piatto"
+        ],
+        "corretta": "Tutte le tracce con lo stesso raggio sui piatti impilati"
+    },
+    {
+        "domanda": "Esercizio: In quale rappresentazione a 4 bit la stringa 1111 rappresenta il numero -1?",
+        "opzioni": [
+            "Modulo e Segno",
+            "Complemento a 1 (rappresenta -0)",
+            "Complemento a 2",
+            "Eccesso 8"
+        ],
+        "corretta": "Complemento a 2"
+    },
+    {
+        "domanda": "Esercizio: Convertire la stringa ternaria (12012)$_3$ nel sistema decimale.",
+        "opzioni": [
+            "140",
+            "120",
+            "81",
+            "243"
+        ],
+        "corretta": "140"
+    },
+    {
+        "domanda": "Quale delle seguenti non è una funzione logica fondamentale ma può essere implementata combinando AND, OR e NOT?",
+        "opzioni": [
+            "Congiunzione",
+            "Disgiunzione",
+            "Negazione",
+            "XOR (eXclusive OR)"
+        ],
+        "corretta": "XOR (eXclusive OR)"
+    },
+    {
+        "domanda": "L'Hardware System Architecture (HSA) definisce:",
+        "opzioni": [
+            "Il set di istruzioni a livello macchina",
+            "Il progetto logico dei componenti HW e la comunicazione tra essi",
+            "L'organizzazione del bus PCI",
+            "L'utilizzo dei linguaggi di alto livello"
+        ],
+        "corretta": "Il progetto logico dei componenti HW e la comunicazione tra essi"
+    },
+    {
+        "domanda": "Esercizio: Eseguire la somma binaria $1111 + 0001$ (interi senza segno a 4 bit).",
+        "opzioni": [
+            "10000 (Riporto di 1)",
+            "0000 (Overflow)",
+            "1111",
+            "1000"
+        ],
+        "corretta": "0000 (Overflow) (In aritmetica finita a 4 bit: 15+1=16. 10000 troncato a 4 bit dà 0000, overflow)"
+    },
+    {
+        "domanda": "Per ridurre la complessità strutturale di un circuito logico, l'espressione logica della funzione viene semplificata applicando:",
+        "opzioni": [
+            "La legge di Von Neumann",
+            "Le proprietà formali dell'algebra di Boole",
+            "La forma canonica congiuntiva",
+            "Il principio di località"
+        ],
+        "corretta": "Le proprietà formali dell'algebra di Boole"
+    },
+    {
+        "domanda": "Qual è il tempo per compiere una rotazione completa per un disco a 20.000 RPM?",
+        "opzioni": [
+            "3 msec",
+            "6 msec",
+            "1.5 msec",
+            "60 secondi"
+        ],
+        "corretta": "3 msec"
+    },
+    {
+        "domanda": "L'IEEE 754 a precisione estesa utilizza:",
+        "opzioni": [
+            "32 bit",
+            "64 bit",
+            "80 bit",
+            "128 bit"
+        ],
+        "corretta": "80 bit"
+    },
+    {
+        "domanda": "In quale rappresentazione dei numeri relativi l'intervallo di numeri positivi e negativi è asimmetrico?",
+        "opzioni": [
+            "Modulo e Segno",
+            "Complemento a 1",
+            "Complemento a 2",
+            "Virgola Fissa"
+        ],
+        "corretta": "Complemento a 2"
+    },
+    {
+        "domanda": "Quale parametro influenza la velocità di trasferimento (larghezza di banda) su un bus?",
+        "opzioni": [
+            "La latenza",
+            "La capacità",
+            "Il numero di cicli di bus al secondo (frequenza)",
+            "L'arbitraggio centralizzato"
+        ],
+        "corretta": "Il numero di cicli di bus al secondo (frequenza)"
+    },
+    {
+        "domanda": "Esercizio: In quale rappresentazione a 4 bit il numero binario 0000 rappresenta sia +0 che -0?",
+        "opzioni": [
+            "Complemento a 2",
+            "Modulo e Segno",
+            "Complemento a 1",
+            "Eccesso 8"
+        ],
+        "corretta": "Modulo e Segno"
+    },
+    {
+        "domanda": "La parola Word ha una lunghezza che dipende da cosa?",
+        "opzioni": [
+            "È sempre 8 bit",
+            "È sempre 16 bit",
+            "Dipende dall’architettura (16, 32 o 64 bit)",
+            "È sempre 1024 byte"
+        ],
+        "corretta": "Dipende dall’architettura (16, 32 o 64 bit)"
+    },
+    {
+        "domanda": "Nel Bus ISA, la temporizzazione è:",
+        "opzioni": [
+            "Asincrona",
+            "Sincrona, con frequenza di clock 8,33 MHz",
+            "Sincrona, con frequenza di clock 33-66 MHz",
+            "Regolata da full handshake"
+        ],
+        "corretta": "Sincrona, con frequenza di clock 8,33 MHz"
+    },
+    {
+        "domanda": "Cosa si intende per Locazione di memoria nella memoria principale?",
+        "opzioni": [
+            "L'indirizzo binario",
+            "Il singolo bit",
+            "Insieme di n celle, tipicamente 1 byte o 1 word",
+            "La parte non intera del numero"
+        ],
+        "corretta": "Insieme di n celle, tipicamente 1 byte o 1 word"
+    },
+    {
+        "domanda": "Qual è la formula per il MIPS rate in termini di frequenza di clock ($f$) e $CPI$?",
+        "opzioni": [
+            "$MIPS = 10^6 \times f / CPI$",
+            "$MIPS = CPI \times f / 10^6$",
+            "$MIPS = f / CPI$",
+            "$MIPS = (1-H) \times f$"
+        ],
+        "corretta": "$MIPS = 10^6 \times f / CPI$"
+    },
+    {
+        "domanda": "Perché si afferma che in aritmetica finita l'elaboratore non gode della proprietà associativa, ad esempio nella somma?",
+        "opzioni": [
+            "A causa dell'Underflow",
+            "A causa della volatilità della RAM",
+            "A causa del fenomeno di overflow/underflow che può alterare i risultati intermedi",
+            "A causa dell'aritmetica in virgola mobile"
+        ],
+        "corretta": "A causa del fenomeno di overflow/underflow che può alterare i risultati intermedi"
+    },
+    {
+        "domanda": "Quale registro del processore contiene l’istruzione che la CPU sta elaborando?",
+        "opzioni": [
+            "PC (Program Counter)",
+            "MAR (Memory Address Register)",
+            "IR (Instruction Register)",
+            "MDR (Memory Data Register)"
+        ],
+        "corretta": "IR (Instruction Register)"
+    },
+    {
+        "domanda": "La rappresentazione in virgola fissa può essere intesa come un’estensione della rappresentazione in complemento a 2, considerando anche la posizione di:",
+        "opzioni": [
+            "L'esponente",
+            "Il segno",
+            "La virgola",
+            "La mantissa"
+        ],
+        "corretta": "La virgola"
+    },
+    {
+        "domanda": "Esercizio (IEEE 754): Data la rappresentazione in singola precisione 0 01111110 00000000000000000000000, qual è il numero decimale rappresentato?",
+        "opzioni": [
+            "1.0",
+            "2.0",
+            "0.5",
+            "-1.0"
+        ],
+        "corretta": "0.5 (Esponente effettivo 126-127 = -1. Numero = $+1.0 \times 2^{-1} = 0.5$)"
+    },
+    {
+        "domanda": "Cosa si ottiene se si cerca di rappresentare il numero ternario 0,1 in decimale?",
+        "opzioni": [
+            "Un numero intero",
+            "Un numero rappresentabile con una cifra finita",
+            "0,3333... (sarebbero necessarie infinite cifre)",
+            "1,3333..."
+        ],
+        "corretta": "0,3333... (sarebbero necessarie infinite cifre)"
+    },
+    {
+        "domanda": "Qual è la formula del Logarithm of the Ceiling (usata per i bit necessari a rappresentare K informazioni)?",
+        "opzioni": [
+            "$\lfloor log_2 K \rfloor$",
+            "$\lceil log_2 K \rceil$",
+            "$2^K$",
+            "$K \times 2$"
+        ],
+        "corretta": "$\lceil log_2 K \rceil$"
+    },
+    {
+        "domanda": "Perché le cache di livello L3, pur avendo un miglior hit rate, sono più lente delle L1 e L2?",
+        "opzioni": [
+            "Perché sono costruite in SRAM",
+            "Perché sono più capaci (e la capacità è inversamente proporzionale alla velocità in una certa misura)",
+            "Perché sono off-chip",
+            "Perché usano Write-through"
+        ],
+        "corretta": "Perché sono più capaci (e la capacità è inversamente proporzionale alla velocità in una certa misura)"
+    },
+    {
+        "domanda": "Qual è la funzione del Decodificatore di indirizzi nel Controller di una periferica di I/O?",
+        "opzioni": [
+            "Memorizzare i dati da trasferire",
+            "Contenere informazioni sullo stato della periferica",
+            "Consentire di indirizzare la periferica",
+            "Gestire il coordinamento con il processore"
+        ],
+        "corretta": "Consentire di indirizzare la periferica"
+    },
+    {
+        "domanda": "In quale rappresentazione dei numeri relativi la sottrazione può essere ricondotta a una somma, ma richiede un'addizione finale (end-around carry) del bit di riporto?",
+        "opzioni": [
+            "Modulo e Segno",
+            "Complemento a 1",
+            "Complemento a 2",
+            "Eccesso"
+        ],
+        "corretta": "Complemento a 1"
+    },
+    {
+        "domanda": "I dischi ottici, al contrario dei dischi magnetici, non sono soggetti a usura meccanica durante la lettura perché:",
+        "opzioni": [
+            "Usano il cambiamento di fase",
+            "Il raggio laser non ha alcun contatto col disco",
+            "Hanno uno strato protettivo spesso 0.6 mm",
+            "Sono fatti di alluminio"
+        ],
+        "corretta": "Il raggio laser non ha alcun contatto col disco"
+    },
+    {
+        "domanda": "Il tempo d’accesso delle memorie ad accesso sequenziale dipende dalla posizione occupata dall’informazione. Quale metodo di accesso è questo?",
+        "opzioni": [
+            "Casuale",
+            "Diretto",
+            "Semi-casuale",
+            "Sequenziale"
+        ],
+        "corretta": "Sequenziale"
+    },
+    {
+        "domanda": "Nel processo di Compilazione, un programma sorgente viene tradotto in:",
+        "opzioni": [
+            "Linguaggio Assembly",
+            "Programma oggetto (in linguaggio macchina)",
+            "Codice Interpretato",
+            "Algoritmo"
+        ],
+        "corretta": "Programma oggetto (in linguaggio macchina)"
+    },
+    {
+        "domanda": "Il livello di linguaggio di programmazione è introdotto per colmare il divario tra il linguaggio binario dell'elaboratore e:",
+        "opzioni": [
+            "Il linguaggio di I/O",
+            "Il linguaggio macchina",
+            "Il linguaggio naturale/logica dell'uomo",
+            "Il linguaggio Assembly"
+        ],
+        "corretta": "Il linguaggio naturale/logica dell'uomo"
+    },
+    {
+        "domanda": "Quale affermazione descrive meglio la 'Proceduralità' come caratteristica del modello di Von Neumann?",
+        "opzioni": [
+            "L'elaboratore esegue istruzioni in parallelo",
+            "Il programma indica la sequenza di istruzioni da eseguire per la soluzione di un problema",
+            "Il processore è asincrono",
+            "Le memorie sono ad accesso casuale"
+        ],
+        "corretta": "Il programma indica la sequenza di istruzioni da eseguire per la soluzione di un problema"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Modulo e Segno (4 bit) del numero +7?",
+        "opzioni": [
+            "1111",
+            "0111",
+            "1000",
+            "0000"
+        ],
+        "corretta": "0111"
+    },
+    {
+        "domanda": "Esercizio: In quale rappresentazione a 4 bit la stringa 1111 rappresenta -0?",
+        "opzioni": [
+            "Complemento a 2",
+            "Modulo e Segno",
+            "Complemento a 1",
+            "Eccesso 8"
+        ],
+        "corretta": "Complemento a 1"
+    },
+    {
+        "domanda": "Esercizio: Se si usa la Rappresentazione con Eccesso a 3 bit con Eccesso = 4, quale numero è rappresentato dalla stringa 111?",
+        "opzioni": [
+            "3",
+            "7",
+            "-4",
+            "-1"
+        ],
+        "corretta": "3 (7 - Eccesso = 7 - 4 = 3)"
+    },
+    {
+        "domanda": "Qual è il nome di un tipo di EEPROM cancellabile a blocchi e utilizzata nelle attuali schede SD?",
+        "opzioni": [
+            "EPROM",
+            "PROM",
+            "Memoria Flash",
+            "SRAM"
+        ],
+        "corretta": "Memoria Flash"
+    },
+    {
+        "domanda": "Nella conversione Binario a Esadecimale (o viceversa), quale potenza di 2 rende l'uso della scorciatoia efficiente?",
+        "opzioni": [
+            "$2^2 = 4$",
+            "$2^3 = 8$",
+            "$2^4 = 16$",
+            "$2^8 = 256$"
+        ],
+        "corretta": "$2^4 = 16$"
+    },
+    {
+        "domanda": "Il Latch S-R è costituito da due porte logiche collegate mediante segnali retroattivi. Quali porte sono utilizzate?",
+        "opzioni": [
+            "Due porte AND",
+            "Due porte OR",
+            "Due porte NOR",
+            "Due porte NAND"
+        ],
+        "corretta": "Due porte NOR"
+    },
+    {
+        "domanda": "Esercizio: Eseguire l'operazione logica AND su A=1 e B=0. Qual è il risultato?",
+        "opzioni": [
+            "1",
+            "0",
+            "Vero",
+            "Falso"
+        ],
+        "corretta": "0"
+    },
+    {
+        "domanda": "Esercizio: Eseguire l'operazione logica OR su A=1 e B=0. Qual è il risultato?",
+        "opzioni": [
+            "0",
+            "1",
+            "00",
+            "11"
+        ],
+        "corretta": "1"
+    },
+    {
+        "domanda": "Esercizio: Eseguire l'operazione logica NOT su A=1. Qual è il risultato?",
+        "opzioni": [
+            "1",
+            "0",
+            "Vero",
+            "Falso"
+        ],
+        "corretta": "0"
+    },
+    {
+        "domanda": "Esercizio: Convertire la stringa binaria (10110)$_2$ nel sistema decimale.",
+        "opzioni": [
+            "16",
+            "22",
+            "18",
+            "24"
+        ],
+        "corretta": "22 ($1\times 16 + 0\times 8 + 1\times 4 + 1\times 2 + 0\times 1 = 22$)"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Modulo e Segno (4 bit) del numero -3?",
+        "opzioni": [
+            "0011",
+            "1011",
+            "1101",
+            "1100"
+        ],
+        "corretta": "1011"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 1 (4 bit) del numero -4?",
+        "opzioni": [
+            "1011",
+            "0100",
+            "1100",
+            "1111"
+        ],
+        "corretta": "1011 (+4 è 0100, C1 è 1011)"
+    },
+    {
+        "domanda": "Esercizio: Qual è la rappresentazione in Complemento a 2 (4 bit) del numero -4?",
+        "opzioni": [
+            "1100",
+            "0100",
+            "1011",
+            "1111"
+        ],
+        "corretta": "1100 (+4 è 0100, C1 è 1011, C2 è 1100)"
+    },
+    {
+        "domanda": "L'aggettivo 'digitale' significa essenzialmente:",
+        "opzioni": [
+            "Analogico",
+            "Simbolico",
+            "Continuo",
+            "Numerico (dall'inglese digit=cifra)"
+        ],
+        "corretta": "Numerico (dall'inglese digit=cifra)"
+    },
+    {
+        "domanda": "Un insieme di dati è in formato digitale se è rappresentato attraverso:",
+        "opzioni": [
+            "Un segnale continuo",
+            "Una sequenza di cifre",
+            "Grandezze fisiche",
+            "Una lancetta in movimento"
+        ],
+        "corretta": "Una sequenza di cifre"
+    },
+    {
+        "domanda": "Esercizio: Convertire 20 (base 10) in base 3.",
+        "opzioni": [
+            "(201)$_3$",
+            "(102)$_3$",
+            "(221)$_3$",
+            "(121)_3$"
+        ],
+        "corretta": "(202)$_3$ (20/3=6 R2; 6/3=2 R0; 2/3=0 R2. Invertito: 202)"
+    },
+    {
+        "domanda": "Esercizio: Qual è il massimo numero intero positivo rappresentabile in C2 a 8 bit?",
+        "opzioni": [
+            "255",
+            "128",
+            "127",
+            "256"
+        ],
+        "corretta": "127 ($2^{8-1}-1 = 127$)"
+    },
+    {
+        "domanda": "Qual è il principale limite architetturale degli elaboratori basati sul modello di Von Neumann?",
+        "opzioni": [
+            "Il limite tecnologico sulla velocità della RAM",
+            "Il 'collo di bottiglia' dovuto all'accesso ad una sola informazione per volta mediante un unico bus",
+            "La mancanza di una memoria cache",
+            "La proceduralità"
+        ],
+        "corretta": "Il 'collo di bottiglia' dovuto all'accesso ad una sola informazione per volta mediante un unico bus"
+    },
+    {
+        "domanda": "Le memorie ROM sono a sola lettura; la scrittura (in fase di produzione) avviene:",
+        "opzioni": [
+            "Mediante impulsi elettrici (EEPROM)",
+            "Mediante esposizione a raggi ultravioletti (EPROM)",
+            "Esponendo a luce un materiale fotosensibile e incidendo la superficie",
+            "Programmandole una sola volta con strumentazione speciale (PROM)"
+        ],
+        "corretta": "Esponendo a luce un materiale fotosensibile e incidendo la superficie"
     }
 ]
